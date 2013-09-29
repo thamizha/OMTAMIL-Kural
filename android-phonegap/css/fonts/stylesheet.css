@@ -1,0 +1,14 @@
+
+
+
+
+@font-face {
+    font-family: 'tsc_tamilregular';
+    src: url('tsc-omtamil-kural-webfont.eot');
+    src: url('tsc-omtamil-kural-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tsc-omtamil-kural-webfont.woff') format('woff'),
+         url('tsc-omtamil-kural-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
