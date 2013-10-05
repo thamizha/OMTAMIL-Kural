@@ -2,8 +2,8 @@
   font-family: 'tsc_tamilregular';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'),
-    local('Lato-Regular'),
+  src: local('Tamil Regular'),
+    local('Tamil-Regular'),
     url(fonts/tsc-omtamil-kural-webfont.woff) format('woff'),
     url(fonts/tsc-omtamil-kural-webfont.ttf) format('truetype');
 }
