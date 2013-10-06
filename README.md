@@ -1,8 +1,8 @@
-# Tirukkural - Tamil Open Source Apps by OMTAMIL.NET
+# Tirukkural
 
-> Tirukkural application on mobile devices.
+> Tamil Open Source App by OMTAMIL.NET.
 
-# Check Changelog of versions in changelog.txt file
+##### Check Changelog of versions in changelog.txt file
 
 == Version 1.2.0 - 06-10-2013
 
