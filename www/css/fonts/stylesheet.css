@@ -1,13 +1,10 @@
 
-
-
-
 @font-face {
-    font-family: 'tsc_tamilregular';
-    src: url('tsc-omtamil-kural-webfont.eot');
-    src: url('tsc-omtamil-kural-webfont.eot?#iefix') format('embedded-opentype'),
-         url('tsc-omtamil-kural-webfont.woff') format('woff'),
-         url('tsc-omtamil-kural-webfont.ttf') format('truetype');
+    font-family: 'tau_elango_kalyaniregular';
+    src: url('tau_kaln-tamilunicode.eot');
+    src: url('tau_kaln-tamilunicode.eot?#iefix') format('embedded-opentype'),
+         url('tau_kaln-tamilunicode.woff') format('woff'),
+         url('tau_kaln-tamilunicode.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
