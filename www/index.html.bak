@@ -21,7 +21,7 @@
 <li data-icon="delete" data-rel="close" data-theme="a"><a href="#">Language</a></li>  
 
     <li>தமிழ்</li>
-    <li><a href="index_english.html">English</a></li>
+    <li>English</li>
     <li>French</li>
 		<li>French</li>
 		<li>German</li>
@@ -53,7 +53,7 @@
 		  
 <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="குறள் தேடு...">
 
-    <li><a href="#kural1"><small>1 அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு</small></a></li>			  
+    <li><a href="#kural1">1 அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு</a></li>			  
 			  
 			  
 </ul>
@@ -67,6 +67,11 @@
 		  
 	<div id="demo-borders">
     <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+		
+		
+		
+		
+		
         <h3>அறத்துப்பால்</h3>
         <ul data-role="listview">
           
@@ -654,7 +659,7 @@
 <li data-icon="delete" data-rel="close" data-theme="a"><a href="#">Language</a></li>  
 
     <li>தமிழ்</li>
-    <li><a href="index_english.html">English</a></li>
+    <li>English</li>
     <li>French</li>
 		<li>French</li>
 		<li>German</li>
@@ -695,50 +700,68 @@
 <h1>குறள் 1</h1>
             <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
         </div>
-  <div data-role="content">
-    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
-     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
-      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
-      <div id="imgcontainer">
-       <p style="color:red;font-size:20px;">அகர முதல எழுத்துஎல்லாம் ஆதி
-        <br>பகவன் முதற்றே உலகு</p>
-      </div>
-     </div>
-     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross" data-collapsed="false">
-      <h3>முலத் திருக்குறள்</h3>
-      <div id="imgcontainer">
-       <p style="color:green;font-size:15px;">அகர முதல வெழுத்தெல்லா மாதி
-        <br>பகவன் முதற்றே யுலகு</p>
-      </div>
-     </div>
-     <div data-role="collapsible" data-collapsed-icon="flat-new" data-expanded-icon="flat-cross">
-      <h3>பொருளுரை</h3>எழுத்துக்களெல்லாம் அகரத்தை முதல் எழுத்தாக உடையன; உலகம் ஆதிபகவனை முதற்பொருளாக உடையது.</div>
-     <div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
-      <h3>விரிவுரை</h3>
-      <iframe src="http://www.youtube.com/embed/1umEHqPMC-o" allowfullscreen="" frameborder="0" height="315" width="100%"></iframe>
-     </div>
-     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
-      <h3>பதவுரை</h3>
-      <span style="color: rgb(204, 51, 204);">
-       <span style="font-weight: bold; color: rgb(153, 51, 153);">அகரம்</span>
-      </span>- எழுத்துகளுக்கு முதல்
-      <br>
-      <span style="font-weight: bold; color: rgb(153, 51, 153);">முதல</span>- முதலை உடையனவாகும்
-      <br>
-      <span style="font-weight: bold; color: rgb(153, 51, 153);">எழுத்து</span>- மொழிக்குரிய குறிப்பிட்ட அடிப்படை தனிக்குறியீடு
-      <br>
-      <span style="color: rgb(153, 51, 153); font-weight: bold;">எல்லாம்</span>- அனைத்தும்
-      <br>
-      <span style="color: rgb(153, 51, 153); font-weight: bold;">ஆதி</span>- முதல்
-      <br>
-      <span style="color: rgb(153, 51, 153); font-weight: bold;">பகவன்</span>- பகவு + அன் = பகுத்தல். பிரித்தல். பிளவுபடுத்துதல்
-      <br>
-      <span style="color: rgb(153, 51, 153); font-weight: bold;">முதற்று</span>- முதலை உடையதாகும்
-      <br>
-      <span style="color: rgb(153, 51, 153); font-weight: bold;">உலகு</span>- உலகம்</div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+                <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>தமிழ்</h3>
+                 
+                      <div id="imgcontainer">
+<p style="color:red;font-size:20px;">அகர முதல எழுத்தெல்லாம் ஆதி<br>
+பகவன் முதற்றே உலகு</p>
+                      </div>
+              
+                </div>
 				
 				
+				
+<div data-role="collapsible" data-collapsed-icon="flat-new" data-expanded-icon="flat-cross">
+                    <h3>பொருளுரை</h3>
+								
+எழுத்துக்களெல்லாம் அகரத்தை முதல் எழுத்தாக உடையன; உலகம் ஆதிபகவனை முதற்பொருளாக உடையது.
+     
+                </div>
+				
+				
+<div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
 
+<h3>விரிவுரை</h3>
+								
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/1umEHqPMC-o" frameborder="0" allowfullscreen></iframe>
+    
+</div>
+				
+				
+<div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
+
+<h3>விரிவுரை</h3>
+								
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/1umEHqPMC-o" frameborder="0" allowfullscreen></iframe>
+    
+</div>                
+                
+<div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
+
+<h3>விரிவுரை</h3>
+								
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/1umEHqPMC-o" frameborder="0" allowfullscreen></iframe>
+    
+</div>				
+				
+<div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
+
+<h3>விரிவுரை</h3>
+								
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/1umEHqPMC-o" frameborder="0" allowfullscreen></iframe>
+    
+</div>
+
+<div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
+
+<h3>விரிவுரை</h3>
+								
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/1umEHqPMC-o" frameborder="0" allowfullscreen></iframe>
+    
+</div>
 				
 			
             </div>
