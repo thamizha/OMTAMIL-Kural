@@ -22,9 +22,9 @@ Project Homepage : http://omtamil.net/tirukkural
 - Removed : Translations & Transliterations Tab
 - Moved : Open Source Project Info from sidebar to footer - added with version info
 
-== Version 1.2.0 - 06-10-2013
+== Version 0.11 Build 01.10.2013
+- Added : Translations & Transliterations Tab
+- Added : Illaraviyal Chapters
 
-== Version 0.1.1 - 01/10/2013
-- Added : Translations & Transliterations
-== Version 0.1.0 - 30/09/2013
-- Built on TSCII Tamil font
+== Version 0.1.0 Build 30.09.2013
+- Apps Launched on Google Play
