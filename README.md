@@ -11,6 +11,17 @@ Project Homepage : http://omtamil.net/tirukkural
 
 ##### Check Changelog of versions in changelog.txt file
 
+== Version 1.2 Build 07.10.2013
+- Added : Search box using Autocomplete listview filter feature
+- Added : Language Menu on right panel overlay slider
+- Added : Moola Tirukkural, Virivurai (Video) & Patavurai Tab
+- Added : Splash Screen on startup
+- Added : Footer Image
+- Changed : TSCII > Tamil Unicode
+- Improved : Main page collapsibles
+- Removed : Translations & Transliterations Tab
+- Moved : Open Source Project Info from sidebar to footer - added with version info
+
 == Version 1.2.0 - 06-10-2013
 
 == Version 0.1.1 - 01/10/2013
