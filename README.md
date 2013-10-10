@@ -4,7 +4,7 @@
 
 Tirukkuṟaḷ (Tamil: திருக்குறள் also known as the Kural), sometimes spelt 'Thirukkural, is a classic of couplets or Kurals (1330 rhyming Tamil couplets) or aphorisms. It was authored by Thiruvalluvar, a poet who is said to have lived anytime between 2nd century BCE and 5th century CE. The Thirukkural is one of the most important works in the Tamil language.
 
-Tamil Open Source Apps Project is an open initiative of OMTAMIL.NET to develop useful Tamil apps on mobile and desktop devices by Tamil school students all around the globe using open source softwares in Tamil interface. 
+OMTAMIL.NET is an open initiative to develop useful Tamil Apps on mobile and desktop devices by Tamil school students all around the globe using open source softwares in Tamil interface.
 
 There are many features under development. Please send us your feedback and feature requests Or give some of your time to contribute code to the project.
 
@@ -13,7 +13,7 @@ Project Homepage : http://omtamil.net/tirukkural
 
 ##### Check Changelog of versions in changelog.txt file
 
-== Version 1.2 Build 07.10.2013
+== Version 0.2 Build 07.10.2013
 - Added : Search box using Autocomplete listview filter feature
 - Added : Language Menu on right panel overlay slider
 - Added : Moola Tirukkural, Virivurai (Video) & Patavurai Tab
