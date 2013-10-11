@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
+ <title>Tirukkural OS</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
@@ -9,24 +10,22 @@
  </head>
  <body>
   <div data-role="page" id="mainpage">
-   <div data-role="panel" id="panel" data-position="right" data-theme="c" data-display="push">
-    <ul data-role="listview" data-inset="true" data-theme="c">
-     <li data-icon="delete" data-rel="close" data-theme="a">
-      <a href="#">Language</a>
+   <div data-role="panel" id="panel" data-position="right" data-theme="e" data-display="push">
+    <ul data-role="listview" data-theme="c" class="nav-search">
+     <li data-icon="delete" data-rel="close" data-theme="e">
+      <a href="#">Tirukkural OS Menu</a>
      </li>
-     <li>தமிழ்</li>
-     <li>English</li>
-     <li>French</li>
-     <li>German</li>
-     <li>Russian</li>
-     <li>Latin</li>
-     <li>Arabic</li>
-     <li>Malay</li>
-     <li>Sanskrit</li>
-     <li>Hindi</li>
-     <li>Telugu</li>
-     <li>Malayalam</li>
-     <li>Kannada</li>
+	 
+  <li><a href="#about">About Us</a><li><a href="#contributors">Contributors</a></li> <li><a href="#whats-new">What's New</a></li>
+
+	  <li data-theme="e">
+Language
+     </li>
+     
+    <li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li>
+	 <li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li>
+
+
     </ul>
    </div>
    <div data-role="header" data-theme="e">
@@ -35,19 +34,209 @@
     <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content">
-    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="குறள் தேடு...">
-      <li><a href="#kural1"><small>1 அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு</small></a></li>
- <li><a href="#kural"><small>2 கற்றதனால் ஆய பயனென்கொல் வாலறிவன் நற்றாள் தொழாஅர் எனி</small></a></li>
- <li><a href="#kural"><small>3 மலர்மிசை ஏகினான் மாணடி சேர்ந்தார் நிலமிசை நீடுவாழ் வார்</small></a></li>
- <li><a href="#kural"><small>4 வேண்டுதல் வேண்டாமை இலானடி சேர்ந்தார்க்கு யாண்டும் இடும்பை இல</small></a></li>
- <li><a href="#kural"><small>5 இருள்சேர் இருவினையும் சேரா இறைவன் பொருள்சேர் புகழ்புரிந்தார் மாட்டு</small></a></li>
- <li><a href="#kural"><small>6 பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க நெறிநின்றார் நீடுவாழ் வார்</small></a></li>
- <li><a href="#kural"><small>7 தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால் மனக்கவலை மாற்றல் அரிது</small></a></li>
- <li><a href="#kural"><small>8 அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால் பிறவாழி நீந்தல் அரிது</small></a></li>
- <li><a href="#kural"><small>9 கோளில் பொறியின் குணமிலவே எண்குணத்தான் தாளை வணங்காத் தலை</small></a></li>
- <li><a href="#kural"><small>10 பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார் இறைவன் அடிசேரா தார்</small></a></li></li>
+    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="குறள் எண்,  குறட்பா, சொல் தேடுக...">
+     <li>
+      <a href="#kural1">
+       <small>1 அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>2 கற்றதனால் ஆய பயனென்கொல் வாலறிவன் நற்றாள் தொழாஅர் எனி</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>3 மலர்மிசை ஏகினான் மாணடி சேர்ந்தார் நிலமிசை நீடுவாழ் வார்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>4 வேண்டுதல் வேண்டாமை இலானடி சேர்ந்தார்க்கு யாண்டும் இடும்பை இல</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>5 இருள்சேர் இருவினையும் சேரா இறைவன் பொருள்சேர் புகழ்புரிந்தார் மாட்டு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>6 பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க நெறிநின்றார் நீடுவாழ் வார்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>7 தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால் மனக்கவலை மாற்றல் அரிது</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>8 அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால் பிறவாழி நீந்தல் அரிது</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>9 கோளில் பொறியின் குணமிலவே எண்குணத்தான் தாளை வணங்காத் தலை</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>10 பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார் இறைவன் அடிசேரா தார்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>11 வான்நின்று உலகம் வழங்கி வருதலால் தான்அமிழ்தம் என்றுணரற் பாற்று.</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>12 துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத் துப்பாய தூஉம் மழை</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>13 விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து உள்நின்று உடற்றும் பசி</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>14 ஏரின் உழாஅர் உழவர் புயல்என்னும் வாரி வளங்குன்றிக் கால்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>15 கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே எடுப்பதூஉம் எல்லாம் மழை</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>16 விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே பசும்புல் தலைகாண்பு அரிது</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>17 நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி தான்நல்கா தாகி விடின்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>18 சிறப்பொடு பூசனை செல்லாது வானம் வறக்குமேல் வானோர்க்கும் ஈண்டு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>19 தானம் தவம்இரண்டும் தங்கா வியன்உலகம் வானம் வழங்கா தெனின்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>20 நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும் வான்இன்று அமையாது ஒழுக்கு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>21 ஒழுக்கத்து நீத்தார் பெருமை விழுப்பத்து வேண்டும் பனுவல் துணிவு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>22 துறந்தார் பெருமை துணைக்கூறின் வையத்து இறந்தாரை எண்ணிக்கொண் டற்று</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>23 இருமை வகைதெரிந்து ஈண்டுஅறம் பூண்டார் பெருமை பிறங்கிற்று உலகு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>24 உரனென்னும் தோட்டியான் ஓரைந்தும் காப்பான் வரனென்னும் வைப்பிற்கோர் வித்தது</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>25 ஐந்தவித்தான் ஆற்றல் அகல்விசும்பு ளார்கோமான் இந்திரனே சாலுங் கரி</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>26 செயற்கரிய செய்வார் பெரியர் சிறியர் செயற்கரிய செய்கலா தார்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>27 சுவைஒளி ஊறுஓசை நாற்றமென ஐந்தின் வகைதெரிவான் கட்டே உலகு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>28 நிறைமொழி மாந்தர் பெருமை நிலத்து மறைமொழி காட்டி விடும்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>29 குணமென்னும் குன்றேறி நின்றார் வெகுளி கணமேயும் காத்தல் அரிது</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>30 அந்தணர் என்போர் அறவோர்மற் றெவ்வுயிர்க்கும் செந்தண்மை பூண்டொழுக லான்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>31 சிறப்புஈனும் செல்வமும் ஈனும் அறத்தினூஉங்கு ஆக்கம் எவனோ உயிர்க்கு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>32 அறத்தினூஉங்கு ஆக்கமும் இல்லை அதனை மறத்தலின் ஊங்கில்லை கேடு</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>33 ஒல்லும் வகையான் அறவினை ஓவாதே செல்லும்வாய் எல்லாஞ் செயல்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>34 மனத்துக்கண் மாசிலன் ஆதல் அனைத்தறன் ஆகுல நீர பிற</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>35 அழுக்காறு அவாவெகுளி இன்னாச்சொல் நான்கும் இழுக்கா இயன்றது அறம்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>36 அன்றறிவாம் என்னாது அறஞ்செய்க மற்றது பொன்றுங்கால் பொன்றாத் துணை</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>37 அறத்தாறு இதுவென வேண்டா சிவிகை பொறுத்தானோடு ஊர்ந்தான் இடை</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>38 வீழ்நாள் படாஅமை நன்றாற்றின் அஃதொருவன் வாழ்நாள் வழியடைக்கும் கல்</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>39 அறத்தான் வருவதே இன்பம் மற்றெல்லாம் புறத்த புகழும் இல</small>
+      </a>
+     </li>
+     <li>
+      <a href="#kural">
+       <small>40 செயற்பால தோரும் அறனே ஒருவற்கு உயற்பால தோரும் பழி</small>
+      </a>
+     </li>
     </ul>
-    <div id="demo-borders">
+    <div data-role="collapsible-set">
      <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
       <h3>அறத்துப்பால்</h3>
       <ul data-role="listview">
@@ -62,31 +251,49 @@
            </a>
           </li>
           <li>
-           <a href="#kural">குறள் 2</a>
+           <a href="#kural">
+            <small>2 கற்றதனால் ஆய பயனென்கொல் வாலறிவன் நற்றாள் தொழாஅர் எனி</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 3</a>
+           <a href="#kural">
+            <small>3 மலர்மிசை ஏகினான் மாணடி சேர்ந்தார் நிலமிசை நீடுவாழ் வார்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 4</a>
+           <a href="#kural">
+            <small>4 வேண்டுதல் வேண்டாமை இலானடி சேர்ந்தார்க்கு யாண்டும் இடும்பை இல</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 5</a>
+           <a href="#kural">
+            <small>5 இருள்சேர் இருவினையும் சேரா இறைவன் பொருள்சேர் புகழ்புரிந்தார் மாட்டு</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 6</a>
+           <a href="#kural">
+            <small>6 பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க நெறிநின்றார் நீடுவாழ் வார்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 7</a>
+           <a href="#kural">
+            <small>7 தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால் மனக்கவலை மாற்றல் அரிது</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 8</a>
+           <a href="#kural">
+            <small>8 அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால் பிறவாழி நீந்தல் அரிது</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 9</a>
+           <a href="#kural">
+            <small>9 கோளில் பொறியின் குணமிலவே எண்குணத்தான் தாளை வணங்காத் தலை</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 10</a>
+           <a href="#kural">
+            <small>10 பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார் இறைவன் அடிசேரா தார்</small>
+           </a>
           </li>
          </ul>
         </div>
@@ -94,34 +301,54 @@
          <h3>2. வான் சிறப்பு</h3>
          <ul data-role="listview" data-filter="false">
           <li>
-           <a href="#kural">குறள் 21</a>
+           <a href="#kural">
+            <small>11 வான்நின்று உலகம் வழங்கி வருதலால் தான்அமிழ்தம் என்றுணரற் பாற்று.</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 22</a>
+           <a href="#kural">
+            <small>12 துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத் துப்பாய தூஉம் மழை</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 23</a>
+           <a href="#kural">
+            <small>13 விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து உள்நின்று உடற்றும் பசி</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 24</a>
+           <a href="#kural">
+            <small>14 ஏரின் உழாஅர் உழவர் புயல்என்னும் வாரி வளங்குன்றிக் கால்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 25</a>
+           <a href="#kural">
+            <small>15 கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே எடுப்பதூஉம் எல்லாம் மழை</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 26</a>
+           <a href="#kural">
+            <small>16 விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே பசும்புல் தலைகாண்பு அரிது</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 27</a>
+           <a href="#kural">
+            <small>17 நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி தான்நல்கா தாகி விடின்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 28</a>
+           <a href="#kural">
+            <small>18 சிறப்பொடு பூசனை செல்லாது வானம் வறக்குமேல் வானோர்க்கும் ஈண்டு</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 29</a>
+           <a href="#kural">
+            <small>19 தானம் தவம்இரண்டும் தங்கா வியன்உலகம் வானம் வழங்கா தெனின்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 30</a>
+           <a href="#kural">
+            <small>20 நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும் வான்இன்று அமையாது ஒழுக்கு</small>
+           </a>
           </li>
          </ul>
         </div>
@@ -129,34 +356,54 @@
          <h3>3. நீத்தார் பெருமை</h3>
          <ul data-role="listview" data-filter="false">
           <li>
-           <a href="#kural">குறள் 31</a>
+           <a href="#kural">
+            <small>21 ஒழுக்கத்து நீத்தார் பெருமை விழுப்பத்து வேண்டும் பனுவல் துணிவு</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 32</a>
+           <a href="#kural">
+            <small>22 துறந்தார் பெருமை துணைக்கூறின் வையத்து இறந்தாரை எண்ணிக்கொண் டற்று</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 33</a>
+           <a href="#kural">
+            <small>23 இருமை வகைதெரிந்து ஈண்டுஅறம் பூண்டார் பெருமை பிறங்கிற்று உலகு</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 34</a>
+           <a href="#kural">
+            <small>24 உரனென்னும் தோட்டியான் ஓரைந்தும் காப்பான் வரனென்னும் வைப்பிற்கோர் வித்தது</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 35</a>
+           <a href="#kural">
+            <small>25 ஐந்தவித்தான் ஆற்றல் அகல்விசும்பு ளார்கோமான் இந்திரனே சாலுங் கரி</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 36</a>
+           <a href="#kural">
+            <small>26 செயற்கரிய செய்வார் பெரியர் சிறியர் செயற்கரிய செய்கலா தார்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 37</a>
+           <a href="#kural">
+            <small>27 சுவைஒளி ஊறுஓசை நாற்றமென ஐந்தின் வகைதெரிவான் கட்டே உலகு</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 38</a>
+           <a href="#kural">
+            <small>28 நிறைமொழி மாந்தர் பெருமை நிலத்து மறைமொழி காட்டி விடும்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 39</a>
+           <a href="#kural">
+            <small>29 குணமென்னும் குன்றேறி நின்றார் வெகுளி கணமேயும் காத்தல் அரிது</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 40</a>
+           <a href="#kural">
+            <small>30 அந்தணர் என்போர் அறவோர்மற் றெவ்வுயிர்க்கும் செந்தண்மை பூண்டொழுக லான்</small>
+           </a>
           </li>
          </ul>
         </div>
@@ -164,34 +411,54 @@
          <h3>4. அறன் வலியுறுத்தல்</h3>
          <ul data-role="listview" data-filter="false">
           <li>
-           <a href="#kural">குறள் 41</a>
+           <a href="#kural">
+            <small>31 சிறப்புஈனும் செல்வமும் ஈனும் அறத்தினூஉங்கு ஆக்கம் எவனோ உயிர்க்கு</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 42</a>
+           <a href="#kural">
+            <small>32 அறத்தினூஉங்கு ஆக்கமும் இல்லை அதனை மறத்தலின் ஊங்கில்லை கேடு</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 43</a>
+           <a href="#kural">
+            <small>33 ஒல்லும் வகையான் அறவினை ஓவாதே செல்லும்வாய் எல்லாஞ் செயல்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 44</a>
+           <a href="#kural">
+            <small>34 மனத்துக்கண் மாசிலன் ஆதல் அனைத்தறன் ஆகுல நீர பிற</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 45</a>
+           <a href="#kural">
+            <small>35 அழுக்காறு அவாவெகுளி இன்னாச்சொல் நான்கும் இழுக்கா இயன்றது அறம்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 46</a>
+           <a href="#kural">
+            <small>36 அன்றறிவாம் என்னாது அறஞ்செய்க மற்றது பொன்றுங்கால் பொன்றாத் துணை</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 47</a>
+           <a href="#kural">
+            <small>37 அறத்தாறு இதுவென வேண்டா சிவிகை பொறுத்தானோடு ஊர்ந்தான் இடை</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 48</a>
+           <a href="#kural">
+            <small>38 வீழ்நாள் படாஅமை நன்றாற்றின் அஃதொருவன் வாழ்நாள் வழியடைக்கும் கல்</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 49</a>
+           <a href="#kural">
+            <small>39 அறத்தான் வருவதே இன்பம் மற்றெல்லாம் புறத்த புகழும் இல</small>
+           </a>
           </li>
           <li>
-           <a href="#kural">குறள் 50</a>
+           <a href="#kural">
+            <small>40 செயற்பால தோரும் அறனே ஒருவற்கு உயற்பால தோரும் பழி</small>
+           </a>
           </li>
          </ul>
         </div>
@@ -1437,53 +1704,2013 @@
           </li>
          </ul>
         </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>40. கல்வி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>41. கல்லாமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>42. கேள்வி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>43. அறிவுடைமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>44. குற்றங்கடிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>45. பெரியாரைத் துணைக்கோடல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>46. சிற்றினஞ்சேராமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>47. தெரிந்துசெயல்வகை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>48. வலியறிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>49. காலமறிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>50. இடனறிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>51. தெரிந்துதெளிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>52. தெரிந்துவினையாடல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>53. சுற்றந்தழால்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>54. பொச்சாவாமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>55. செங்கோன்மை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>56. கொடுங்கோன்மை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>57. வெருவந்தசெய்யாமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>58. கண்ணோட்டம்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>59. ஒற்றாடல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>60. ஊக்கமுடைமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>61. மடியின்மை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>62. ஆள்வினையுடைமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>63. இடுக்கணழியாமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+		
+		
+       </div>
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>அமைச்சியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>39. இறைமாட்சி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>அரணியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>39. இறைமாட்சி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>கூழியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>39. இறைமாட்சி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>படையியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>39. இறைமாட்சி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>நட்பியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>39. இறைமாட்சி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>குடியியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>39. இறைமாட்சி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 381</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 382</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 383</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 384</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 385</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 386</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 387</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 388</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 389</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 390</a>
+          </li>
+         </ul>
+        </div>
        </div>
       </ul>
      </div>
      <!-- /collapsible -->
-    </div>
-    <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
-     <h3>இன்பத்துப்பால்</h3>
-     <ul data-role="listview">
-      <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-       <h3>களவியல்</h3>
-       <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
-        <h3>109. தகையணங்குறுத்தல்</h3>
-        <ul data-role="listview" data-filter="false">
-         <li>
-          <a href="#kural">குறள் 1081</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1082</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1083</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1084</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1085</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1086</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1087</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1088</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1089</a>
-         </li>
-         <li>
-          <a href="#kural">குறள் 1090</a>
-         </li>
-        </ul>
+     <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+      <h3>இன்பத்துப்பால்</h3>
+      <ul data-role="listview">
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>களவியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>109. தகையணங்குறுத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+			
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>110. குறிப்பறிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>111. புணர்ச்சிமகிழ்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>112. நலம்புனைந்துரைத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>113. காதற்சிறப்புரைத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>114. நாணுத்துறவுரைத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+		<div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>115. அலரறிவுறுத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
        </div>
-      </div>
-     </ul>
+       <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+        <h3>கற்பியல்</h3>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>116. பிரிவாற்றாமை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>117. படர்மெலிந்திரங்கல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>118. கண்விதுப்பழிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>119. பசப்புறுபருவரல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>120. தனிப்படர்மிகுதி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>121. நினைந்தவர்புலம்பல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>122. கனவுநிலையுரைத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>123. பொழுதுகண்டிரங்கல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>124. உறுப்புநலனழிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>125. நெஞ்சொடுகிளத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>126. நிறையழிதல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>127. அவர்வயின்விதும்பல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>128. குறிப்பறிவுறுத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>129. புணர்ச்சிவிதும்பல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>130. நெஞ்சொடுபுலத்தல்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>131. புலவி</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>132. புலவி நுணுக்கம்</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		        <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
+         <h3>133. ஊடலுவகை</h3>
+         <ul data-role="listview" data-filter="false">
+          <li>
+           <a href="#kural">குறள் 1081</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1082</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1083</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1084</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1085</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1086</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1087</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1088</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1089</a>
+          </li>
+          <li>
+           <a href="#kural">குறள் 1090</a>
+          </li>
+         </ul>
+        </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+       </div>
+      </ul>
+     </div>
     </div>
     <!-- /collapsible -->
     <ul data-role="listview" data-inset="true">
@@ -1492,7 +3719,7 @@
       <h2>கட்டற்ற குறுஞ்செயலித் திட்டம்</h2>
       <h4>Tamil Open Source App Project</h4>
       <p>
-       <small>Version 0.2 Build 07.10.2013</small>
+       <small>Version 0.21 Build 11.10.2013</small>
       </p>
      </li>
     </ul>
@@ -1503,26 +3730,27 @@
    </div>
   </div>
   <div data-role="page" id="kural1">
-   <div data-role="panel" id="panel" data-position="right" data-theme="c" data-display="push">
-    <ul data-role="listview" data-inset="true" data-theme="c">
-     <li data-icon="delete" data-rel="close" data-theme="a">
-      <a href="#">Language</a>
+
+     <div data-role="panel" id="panel" data-position="right" data-theme="e" data-display="push">
+    <ul data-role="listview" data-theme="c" class="nav-search">
+     <li data-icon="delete" data-rel="close" data-theme="e">
+      <a href="#">Tirukkural OS Menu</a>
      </li>
-     <li>தமிழ்</li>
-     <li>English</li>
-     <li>French</li>
-     <li>German</li>
-     <li>Russian</li>
-     <li>Latin</li>
-     <li>Arabic</li>
-     <li>Malay</li>
-     <li>Sanskrit</li>
-     <li>Hindi</li>
-     <li>Telugu</li>
-     <li>Malayalam</li>
-     <li>Kannada</li>
+	 
+  <li><a href="#about">About Us</a><li><a href="#contributors">Contributors</a></li> <li><a href="#whats-new">What's New</a></li>
+
+	  <li data-theme="e">
+Language
+     </li>
+     
+    <li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li>
+	 <li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li>
+
+
     </ul>
    </div>
+  
+  
    <div data-role="header" data-theme="e">
     <a href="#mainpage" data-role="back" data-icon="back" title="Back">முகப்பு</a>
     <h1>குறள் 1</h1>
@@ -1576,6 +3804,228 @@
     </center>
    </div>
   </div>
+  
+  
+    <div data-role="page" id="about">
+
+	   <div data-role="panel" id="panel" data-position="right" data-theme="e" data-display="push">
+    <ul data-role="listview" data-theme="c" class="nav-search">
+     <li data-icon="delete" data-rel="close" data-theme="e">
+      <a href="#">Tirukkural OS Menu</a>
+     </li>
+	 
+  <li><a href="#about">About Us</a><li><a href="#contributors">Contributors</a></li> <li><a href="#whats-new">What's New</a></li>
+
+	  <li data-theme="e">
+Language
+     </li>
+     
+    <li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li>
+	 <li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li>
+
+
+    </ul>
+   </div>
+	
+	
+   <div data-role="header" data-theme="e">
+    <a href="#mainpage" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>About Tirukkural OS</h1>
+    <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+   
+   
+
+<p>Tirukkural OS (Open Source) App is part of the Tamil Open Source Apps Project initiated by OMTAMIL.NET built around the goal of creating and providing great Multi-language Thirukkural experience on mobile devices with clean and simple interface.</p>
+
+<p>OMTAMIL.NET is an open initiative to develop useful Tamil Apps on mobile devices by Tamil students worldwide using Open Source Softwares in Tamil.</p>
+
+<p>There are many features under development. Please send us your feedback and feature requests Or give some of your time to contribute to the project.</p>
+
+<p>Project Homepage : <a href="http://omtamil.net">http://omtamil.net</a>
+</p>
+   
+    <br>
+    <center>
+     <img src="img/kural-footer.png">
+    </center>
+   </div>
+  </div>
+  
+  
+  
+    <div data-role="page" id="contributors">
+
+	   <div data-role="panel" id="panel" data-position="right" data-theme="e" data-display="push">
+    <ul data-role="listview" data-theme="c" class="nav-search">
+     <li data-icon="delete" data-rel="close" data-theme="e">
+      <a href="#">Tirukkural OS Menu</a>
+     </li>
+	 
+  <li><a href="#about">About Us</a><li><a href="#contributors">Contributors</a></li> <li><a href="#whats-new">What's New</a></li>
+
+	  <li data-theme="e">
+Language
+     </li>
+     
+    <li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li>
+	 <li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li>
+
+
+    </ul>
+   </div>
+	
+	
+   <div data-role="header" data-theme="e">
+    <a href="#mainpage" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>Contributors</h1>
+    <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+   
+<ul data-role="listview" data-inset="true">
+
+
+    <li><img src="img/contributors/muhelen.jpg">
+        <h2>முகிலன் முருகன்</h2>
+		<h3>MUHELEN MURUGAN</h3>
+        <p>OMTAMIL</p>
+    </li>
+    <li><img src="img/contributors/ratha.jpg">
+        <h2>இராதா கோவிந்தசாமி </h2>
+		<h3>RATHA KOVINTHASAMY</h3>
+        <p>OMTAMIL</p></a>
+    </li>
+
+</ul>
+
+  <h4>
+  
+We appreciate contributions in various capacities, below are some ways that you can contribute to this project :</h4>
+
+<div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="c">
+    <h4>A. Development</h4>
+    <ul data-role="listview"><small>
+	<ol>
+<li>"Fork" our official repository on GitHub - <a href="https://github.com/omtamil/tirukkural">https://github.com/omtamil/tirukkural</a></li>
+<li>Create a topic branch.</li>
+<li>Implement your feature or bug fix.</li>
+<li>If you implemented a new feature or added an extra functionality, create/update unit tests for that feature</li>
+<li>Run <code>phing build </code>(requires Phing to be installed)</li>
+<li>If not building successfully, go back to step 3</li>
+<li>Add your files to repository: <code>git add</code></li>
+<li>Commit your files: <code>git commit -m "Implemented feature [x]"</code></li>
+<li>Push your changes: <code>git push</code></li>
+<li>Submit a pull request</li></ol></small>
+    </ul>
+</div>
+
+<div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="c">
+    <h4>B. Translation</h4>
+    <ul data-role="listview"><small>
+The language files periodically need to be updated as the component matures. To submit changes add new languages, follow the same procedures as above in order to submit a pull request.</small>
+    </ul>
+</div>
+
+<div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="c">
+    <h4>C. Testing</h4>
+    <ul data-role="listview"><small>
+For every major release, we prefer to have an approximate 2 week testing window. If you would like to help in testing and giving us feedback on the most recent versions of the component, let us know
+    </small></ul>
+</div>
+
+<div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="c">
+    <h4>D. Promoting</h4>
+    <ul data-role="listview"><small>
+You can help us by spread this app usage to others by share about Tirukkural OS app in your Facebook, Twitter or blogs.</small>
+    </ul>
+</div>
+   
+    <br>
+    <center>
+     <img src="img/kural-footer.png">
+    </center>
+   </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div data-role="page" id="whats-new">
+   
+   
+   <div data-role="panel" id="panel" data-position="right" data-theme="e" data-display="push">
+    <ul data-role="listview" data-theme="c" class="nav-search">
+     <li data-icon="delete" data-rel="close" data-theme="e">
+      <a href="#">Tirukkural OS Menu</a>
+     </li>
+	 
+  <li><a href="#about">About Us</a><li><a href="#contributors">Contributors</a></li> <li><a href="#whats-new">What's New</a></li>
+
+	  <li data-theme="e">
+Language
+     </li>
+     
+    <li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li>
+	 <li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li>
+
+
+    </ul>
+   </div>
+   
+   
+   <div data-role="header" data-theme="e">
+    <a href="#mainpage" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>Changelog</h1>
+    <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+
+   <ul data-role="listview" data-inset="true">
+    <li data-role="list-divider" data-theme="a">Version 0.2 Build 07.10.2013<span class="ui-li-count">9</span></li>
+    <li>
+<p><strong>- Added : Search box using Autocomplete listview filter feature<br>
+- Added : Language Menu on right panel overlay slider<br>
+- Added : Moola Tirukkural, Virivurai (Video) & Patavurai Tab<br>
+- Added : Splash Screen on startup<br>
+- Added : Footer Image<br>
+- Changed : TSCII > Tamil Unicode<br>
+- Improved : Main page collapsibles<br>
+- Removed : Translations & Transliterations Tab<br>
+- Moved : Open Source Project Info from sidebar to footer - added with version info<br>
+</strong></p>
+    </a></li>
+   
+    <li data-role="list-divider" data-theme="a">Version 0.11 Build 01.10.2013<span class="ui-li-count">2</span></li>
+    <li>
+<p><strong>- Added : Translations & Transliterations Tab<br>
+- Added : Illaraviyal Chapters</strong></p>  
+    </a></li>
+
+    <li data-role="list-divider" data-theme="a">Version 0.1 Build 30.09.2013<span class="ui-li-count">1</span></li>
+    <li>
+<p><strong>- Tirukkural OS (Open Source) App launched on Google Play store</strong></p>  
+    </a></li>	
+
+</ul>
+   
+    <br>
+    <center>
+     <img src="img/kural-footer.png">
+    </center>
+   </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
   <div id="highlight"></div>
  </body>
 
