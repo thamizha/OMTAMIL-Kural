@@ -1,3 +1,12 @@
+== Version 0.21 Build 12.10.2013
+- Completed : All 133 Chapters
+- Added : 1-40 Kural to the Search
+- Added : About Us, Contributor & What's New pages
+- Changed : Search Text
+- Changed : Tirukkural OS icon in home page
+- Changed : Language Menu > Tirukkural OS Menu
+- Improved : Rounded collapsible on home page
+
 == Version 0.2 Build 07.10.2013
 - Added : Search box using Autocomplete listview filter feature.
 - Added : Language Menu on right panel overlay slider.
