@@ -4,9 +4,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.omtamil_tirukkural"
-        version   = "0.2">
+        version   = "0.22">
 
-    <name>Tirukkural</name>
+    <name>Tirukkural OS</name>
 
     <description>
        Tamil Open Source Apps Project by OMTAMIL.NET
