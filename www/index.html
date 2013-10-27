@@ -8,7 +8,7 @@
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
   <script>
-   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">Tirukkural OS Menu</a></li><li><a href="#about"><small>About this App</small></a><li><a href="#contributors"><small>Contributors</small></a></li> <li><a href="#whats-new"><small>What&#39;s New</small></a></li><li><a href="#references"><small>References</small></a></li><li data-theme="e">Language</li><li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li><li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li></ul></div>';
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">Tirukkural OS Menu</a></li><li><a href="#about"><small>About this App</small></a><li><a href="#contributors"><small>Contributors</small></a></li> <li><a href="#whats-new"><small>What&#39;s New</small></a></li><li><a href="#references"><small>References</small></a></li><li data-theme="e">Language</li><li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li><li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li></ul><div align="center"><img src="img/kural-footer.png"></div></div>';
    $(document).on('pagebeforecreate', '[data-role=page]', function() {
     if ($(this).find('[data-role=panel]').length === 0) {
      $('[data-role=header]').before(panel);
@@ -5490,10 +5490,6 @@
       </p>
      </li>
     </ul>
-    <br>
-    <center>
-     <img src="img/kural-footer.png">
-    </center>
    </div>
   </div>
   <!-- Beginning of about -->
@@ -5510,10 +5506,6 @@
     <p>Project Homepage :
      <a href="http://omtamil.net">http://omtamil.net</a>
     </p>
-    <br>
-    <center>
-     <img src="img/kural-footer.png">
-    </center>
    </div>
   </div>
   <!-- end of about -->
@@ -5582,11 +5574,6 @@
       <small>You can help us by spread this app usage to others by share about Tirukkural OS app in your Facebook, Twitter or blogs.</small>
      </ul>
     </div>
-
-    <br>
-    <center>
-     <img src="img/kural-footer.png">
-    </center>
    </div>
   </div>
   <!-- end of contributors -->
@@ -5613,6 +5600,7 @@
 		<li>Added : Increase/Decrease text size</li>
         <li>Changed : Manual slider panel > Dynamic content panel</li>
         <li>Improved : Collapsible set (accordion) on home page</li>
+		 <li>Moved : Footer Image > Sidebar panel</li>
 		</ol></small>
       </strong>
      </li>
@@ -5672,13 +5660,7 @@
 </ol></small>
 </strong>
      </li>
-	 
-
     </ul>
-    <br>
-    <center>
-     <img src="img/kural-footer.png">
-    </center>
    </div>
   </div>
   <!-- End of what's new -->
@@ -5690,7 +5672,9 @@
     <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content" data-theme="h">
-
+   
+     <ul data-role="listview" data-inset="true">
+   <small>
     <ol data-role="listview">
     <li>குறள்திறன் - http://kuralthiran.com</li>
     <li>திருக்குறள், அறிவியல் அகலவுரை - தமிழ்க்குரல் பதிப்பகம்</li>
@@ -5700,12 +5684,9 @@
     <li>கேள்வி பதில் வடிவில் திருக்குறளின் சாரம் - மணிமேகலைப் பிரசுரம்</li>
 	<li>திருக்குறள்  - வனிதா பதிப்பகம் </li>
 	<li>திருக்குறள். தெளிவுரை  - தமிழ் நிலையம்</li>
-</ol>
+</ol></small>
+    </ul>
 
-    <br>
-    <center>
-     <img src="img/kural-footer.png">
-    </center>
    </div>
   </div>
   <!-- End of References -->
