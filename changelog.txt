@@ -1,3 +1,14 @@
+== Version 0.22 Build 29.10.2013
+Completed : Kural 1-10
+Added : Kural 41-100 to the Search
+Added : Atikāra viḷakkam, References page
+Added : Āciriyavurai, kuṟaḷicai Tab
+Added : Previous, Next Kural navigation
+Added : Increase/Decrease text size
+Changed : Manual slider panel > Dynamic content panel
+Improved : Collapsible set (accordion) on home page
+Moved : Footer Image > Sidebar panel
+
 == Version 0.21 Build 12.10.2013
 - Completed : All 133 Chapters
 - Added : 1-40 Kural to the Search
