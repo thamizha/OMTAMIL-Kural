@@ -8,7 +8,7 @@
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
   <script>
-   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">Tirukkural OS Menu</a></li><li><a href="index.html#about" rel="external"><small>About this App</small></a><li><a href="index.html#contributors" rel="external"><small>Contributors</small></a></li> <li><a href="index.html#whats-new" rel="external"><small>What&#39;s New</small></a></li><li><a href="index.html#references" rel="external"><small>References</small></a></li><li data-theme="e">Language</li><li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li><li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li></ul><div align="center"><img src="img/kural-footer.png"></div></div>';
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">Tirukkural OS Menu</a></li><li><a href="index.html#about" rel="external"><small>About this App</small></a><li><a href="index.html#contributors" rel="external"><small>Contributors</small></a></li> <li><a href="index.html#whats-new" rel="external"><small>What&#39;s New</small></a></li><li><a href="index.html#references" rel="external"><small>References</small></a></li><li data-theme="e">OMTAMIL Apps</li><li><img src="img/icon.png" alt="English" class="ui-li-icon ui-corner-none">OMTAMIL.TV  <small> (coming soon)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">Tholkaappiyam <small> (coming soon)</small></li></ul></div>';
 
    $(document).on('pagebeforecreate', '[data-role=page]', function() {
     if ($(this).find('[data-role=panel]').length === 0) {
@@ -64,11 +64,11 @@ $(document).ready(function(){
      <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
       <h3>1. இறை வணக்கம்</h3>  
       <div id="imgcontainer">
-       <p style="color:red;">இறைவனது பண்புகள், பயன் முதலியவற்றைக் கூறுதல்</p>
+       <p style="color:red;">ஒப்பற்ற நல்லியல்புகளைக் கொண்டவர் வழியில் நடத்தல்</p>
       </div>
      </div>
      <div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
-      <h3>விரிவுரை</h3>
+      <h3>ஒளியுரை</h3>
       <iframe src="http://www.youtube.com/embed/Z0zif61JJtE" allowfullscreen="" frameborder="0" height="315" width="100%"></iframe>
      </div>
      <div data-role="navbar" align="center">
@@ -98,18 +98,19 @@ $(document).ready(function(){
     <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content">
-   
-   <div class="ui-icon-alt" align="right">
-அ<small>அ</small>
-<a href="#" class="increaseFont" data-role="button" data-icon="plus" data-iconpos="notext" data-theme="c" data-inline="true">Plus</a>
-<a href="#" class="decreaseFont" data-role="button" data-icon="minus" data-iconpos="notext" data-theme="c" data-inline="true">Minus</a>
-<a href="#" class="resetFont" data-role="button" data-icon="refresh" data-iconpos="notext" data-theme="c" data-inline="true">Refresh</a></div>
-   
+    
     <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
-     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
+	     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cmd" data-collapsed="false">
+      <h3>குறள்</h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:18px;">அகர முதல எழுத்தெல்லாம் ஆதி
+        <br>பகவன் முதற்றே உலகு</p>
+      </div>
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
       <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
       <div id="imgcontainer">
-       <p style="color:red;font-size:20px;">அகர முதல எழுத்துஎல்லாம் ஆதி
+       <p style="color:blue;font-size:16px;">அகர முதல எழுத்துஎல்லாம் ஆதி
         <br>பகவன் முதற்றே உலகு</p>
       </div>
      </div>
@@ -121,8 +122,8 @@ $(document).ready(function(){
       </div>
      </div>
      <div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
-      <h3>விரிவுரை</h3>
-      <iframe src="http://www.youtube.com/embed/1umEHqPMC-o" allowfullscreen="" frameborder="0" height="315" width="100%"></iframe>
+      <h3>ஒளியுரை</h3>
+      <iframe src="http://www.youtube.com/embed/1umEHqPMC-o" allowfullscreen="" frameborder="0" height="200%" width="100%"></iframe>
      </div>
      <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
       <h3>பதவுரை</h3>

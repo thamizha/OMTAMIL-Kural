@@ -8,7 +8,7 @@
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
   <script>
-   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">Tirukkural OS Menu</a></li><li><a href="#about"><small>About this App</small></a><li><a href="#contributors"><small>Contributors</small></a></li> <li><a href="#whats-new"><small>What&#39;s New</small></a></li><li><a href="#references"><small>References</small></a></li><li data-theme="e">Language</li><li><img src="img/flag/us.png" alt="English" class="ui-li-icon ui-corner-none">English <small> (coming soon)</small></li><li><img src="img/flag/ms.png" alt="Malay" class="ui-li-icon ui-corner-none">Malay <small> (coming soon)</small></li></ul><div align="center"><img src="img/kural-footer.png"></div></div>';
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">Tirukkural OS Menu</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li> <li><a href="#whats-new"><small>What&#39;s New</small></a></li><li><a href="#references"><small>References</small></a></li><li data-theme="e">OMTAMIL Apps</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small> (coming soon)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">Tholkaappiyam <small> (coming soon)</small></li></ul></div>';
    $(document).on('pagebeforecreate', '[data-role=page]', function() {
     if ($(this).find('[data-role=panel]').length === 0) {
      $('[data-role=header]').before(panel);
@@ -29,10 +29,10 @@
    </div>
    <!-- content -->
    <div data-role="content">
-    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="குறள் எண்,  குறட்பா, சொல் தேடுக...">
+    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="தேடுக...">
      <li>
       <a href="1.html#kural1" rel="external">
-       <small>1 அகர முதல எழுத்துஎல்லாம் ஆதி பகவன் முதற்றே உலகு</small>
+       <small>1 அகர முதல எழுத்தெல்லாம் ஆதி <br>பகவன் முதற்றே உலகு</small>
       </a>
      </li>
      <li>
@@ -533,7 +533,7 @@
     </ul>
     <div data-role="collapsible-set">
      <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
-      <h3>அறத்துப்பால்</h3>
+      <h3>அறம்</h3>
       <ul data-role="listview">
        <div data-role="collapsible-set">
         <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
@@ -551,7 +551,7 @@
             </li>
             <li>
              <a href="1.html#kural1" rel="external">
-              <small>1 அகர முதல எழுத்துஎல்லாம் ஆதி பகவன் முதற்றே உலகு</small>
+               <small>1 அகர முதல எழுத்தெல்லாம் ஆதி <br>பகவன் முதற்றே உலகு</small>
              </a>
             </li>
                  <li>
@@ -2096,7 +2096,7 @@
       </ul>
      </div>
      <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
-      <h3>பொருட்பால்</h3>
+      <h3>பொருள்</h3>
       <ul data-role="listview">
        <div data-role="collapsible-set">
         <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
@@ -4587,7 +4587,7 @@
      </div>
      <!-- /collapsible -->
      <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
-      <h3>இன்பத்துப்பால்</h3>
+      <h3>இன்பம்</h3>
       <ul data-role="listview">
        <div data-role="collapsible-set">
         <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
@@ -5482,7 +5482,7 @@
     <!-- /collapsible -->
     <ul data-role="listview" data-inset="true" data-theme="c">
      <li>
-      <img src="img/omtamil.tv-icon.png">
+    <img src="img/tirukkural-icon.png">
        <small>திருக்குறள் கட்டற்ற செயலி </small>
       <h4>Tirukkural Open Source App</h4>
       <p>
@@ -5496,15 +5496,13 @@
   <div data-role="page" id="about">
    <div data-role="header" data-theme="e">
     <a href="#mainindex" data-role="back" data-icon="back" title="Back">முகப்பு</a>
-    <h1>திருக்குறள் கட்டற்ற செயலிப் பற்றி</h1>
+    <h1>செயலிப் பற்றி</h1>
     <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content">
-    <p>Tirukkural OS (Open Source) App is part of the Tamil Open Source Apps Project initiated by OMTAMIL built around the goal of creating and providing great Multi-language Thirukkural experience on mobile devices with clean and simple interface.</p>
-    <p>There are many features under development. Please send us your feedback and feature requests Or give some of your time to contribute to the project.</p>
-    <p>Project Homepage :
-     <a href="http://omtamil.net">http://omtamil.net</a>
-    </p>
+    <p>Tirukkural OS (Open Source) App is initiated by OMTAMIL built around the goal of creating and providing great multi-language Thirukkural experience on mobile devices with clean and simple interface.</p>
+    <p>There are many features under continues development. Please send us your feedback and feature requests Or give some of your time to contribute to the project.</p>
+    <p>Project Homepage : <a href="http://omtamil.tv">http://omtamil.tv</a></p>
    </div>
   </div>
   <!-- end of about -->
@@ -5525,7 +5523,7 @@
      </li>
      <li>
       <img src="img/contributors/ratha.jpg">
-      <h2>முல்லை </h2>
+      <h2>முல்லை முகிலன் </h2>
       <h3>MULLAI MUHELEN</h3>
       <p>OMTAMIL</p>
       </a>
@@ -5570,7 +5568,7 @@
     <div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="c">
      <h4>B. Promotion</h4>
      <ul data-role="listview">
-      <small>You can help us by spread this app usage to others by share about Tirukkural OS app in your Facebook, Twitter or blogs.</small>
+      <small>You can help us by spread this app usage to others by share about Thirukkural OS app in your Facebook, Twitter or blogs.</small>
      </ul>
     </div>
    </div>
