@@ -64,11 +64,6 @@
 
     <!-- Define app splash screen for each platform. -->
 	
-
-xlarge (xhdpi): at least 960 × 720
-large (hdpi): at least 640 × 480
-medium (mdpi): at least 470 × 320
-small (ldpi): at least 426 × 320
 	
 <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi"/>
 <gap:splash src="res/screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:density="xhdpi"/>
