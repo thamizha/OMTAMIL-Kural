@@ -134,6 +134,27 @@
 .ui-icon-flat-camera:before {
   content: "\e004"; }
 
+
+
+.ui-collapsible-set .ui-collapsible .ui-listview .ui-li-count {
+    left  : 10px;
+    right : auto;
+}
+.ui-collapsible-set .ui-collapsible .ui-listview .ui-li-has-count .ui-btn-text a {
+    padding-left : 55px;
+}
+
+
+
+.ui-page .ui-content .ui-listview .ui-li-count {
+    left  : 10px;
+    right : auto;
+}
+.ui-page .ui-content .ui-listview .ui-li-has-count .ui-btn-text a {
+    padding-left : 55px;
+}
+
+
 .ui-bar-a{border:1px solid #2c3e50;background:#2c3e50;color:#fff;font-weight:bold;font-family:Lato,sans-serif;}
 .ui-bar-a .ui-link-inherit{color:#3e3e3e}
 .ui-bar-a a.ui-link{color:#7cc4e7;font-weight:bold;}
@@ -3009,3 +3030,4 @@ div.ui-slider-switch.ui-mini {
 
 /* customizations to jqm.structure.css */
 .ui-collapsible-inset .ui-collapsible-content { margin: 0; border-right-width: 2px; border-left-width: 2px; }
+
