@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.omtamil_tirukkural"
-        version   = "0.30">
+        version   = "Beta 0.30">
 		
 		<icon src="img/tirukkural-icon.png" />
 
@@ -66,12 +66,10 @@
 
     <!-- Define app splash screen for each platform. -->
 	
-	<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi" />
-	<gap:splash src="splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi" />
-	<gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi" />
-	<gap:splash src="splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi" />
-	<gap:splash src="splash/android/xxhdpi.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
-
+	<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi"  />
+	<gap:splash src="splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
 	<gap:splash src="splash/android/ldpi_landscape.png" gap:platform="android" gap:qualifier="land-ldpi" />
 	<gap:splash src="splash/android/mdpi_landscape.png" gap:platform="android" gap:qualifier="land-mdpi" />
 	<gap:splash src="splash/android/hdpi_landscape.png" gap:platform="android" gap:qualifier="land-hdpi" />
