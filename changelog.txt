@@ -1,3 +1,11 @@
+﻿== Beta 0.30 Build 14.07.2014
+New App homepage : OMTAMIL.TV
+New App Logo & Splash Screen
+Added : மொழிபெயர்ப்பு - Translation on multiple languages
+Added : ஒளியுரை - Kural 1-10
+Added : ஆசிரியருரை - புலவர் இரா. இளங்குமரனார்
+Improved : Search and Listview for Kural 1-10
+
 == Version 0.22 Build 29.10.2013
 Completed : Kural 1-10
 Added : Kural 41-100 to the Search
