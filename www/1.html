@@ -47,6 +47,100 @@ $(document).ready(function(){
 });
 </script>
 
+<script type="text/javascript" charset="utf-8">
+
+        // Wait for device API libraries to load
+        //
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        // device APIs are available
+        //
+        function onDeviceReady() {
+            playAudio("http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3");
+        }
+
+        // Audio player
+        //
+        var my_media = null;
+        var mediaTimer = null;
+
+        // Play audio
+        //
+        function playAudio(src) {
+            if (my_media == null) {
+                // Create Media object from src
+                my_media = new Media(src, onSuccess, onError);
+            } // else play current audio
+            // Play audio
+            my_media.play();
+
+            // Update my_media position every second
+            if (mediaTimer == null) {
+                mediaTimer = setInterval(function() {
+                    // get my_media position
+                    my_media.getCurrentPosition(
+                        // success callback
+                        function(position) {
+                            if (position > -1) {
+                                setAudioPosition((position) + " sec");
+                            }
+                        },
+                        // error callback
+                        function(e) {
+                            console.log("Error getting pos=" + e);
+                            setAudioPosition("Error: " + e);
+                        }
+                    );
+                }, 1000);
+            }
+        }
+
+        // Pause audio
+        //
+        function pauseAudio() {
+            if (my_media) {
+                my_media.pause();
+            }
+        }
+
+        // Stop audio
+        //
+        function stopAudio() {
+            if (my_media) {
+                my_media.stop();
+            }
+            clearInterval(mediaTimer);
+            mediaTimer = null;
+        }
+
+        // onSuccess Callback
+        //
+        function onSuccess() {
+            console.log("playAudio():Audio Success");
+        }
+
+        // onError Callback
+        //
+        function onError(error) {
+            alert('code: '    + error.code    + '\n' +
+                  'message: ' + error.message + '\n');
+        }
+
+        // Set audio position
+        //
+        function setAudioPosition(position) {
+            document.getElementById('audio_position').innerHTML = position;
+        }
+
+		function openLink(){
+			window.open('https://translate.google.com/', '_system', 'location=yes');
+		}
+
+		function prevPage(){
+			window.open("index.html");
+		}
+
+        </script>
   
  </head>
  <body>
@@ -69,7 +163,12 @@ $(document).ready(function(){
      </div>
      <div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
       <h3>ஒளியுரை</h3>
-      <iframe src="http://www.youtube.com/embed/Z0zif61JJtE" allowfullscreen="" frameborder="0" height="315" width="100%"></iframe>
+      <iframe src="http://www.youtube.com/embed/Z0zif61JJtE" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+	  
+	  	<video width="100%" height="auto" controls webkit-playsinline>
+			<source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+		</video>
      </div>
      <div data-role="navbar" align="center">
       <div data-role="controlgroup" data-type="horizontal">
@@ -413,6 +512,26 @@ $(document).ready(function(){
      <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
       <h3>குறளிசை</h3>
       <iframe src="http://www.youtube.com/embed/fVMZ3MuCr4s" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+	  <a href="#" class="btn large" onclick="playAudio('rockGuitar.mp3');">Play Audio</a>
+		<a href="#" class="btn large" onclick="playAudio('audio/rockGuitar.mp3');">Play Audio in folder</a>
+        <a href="#" class="btn large" onclick="pauseAudio();">Pause Playing Audio</a>
+        <a href="#" class="btn large" onclick="stopAudio();">Stop Playing Audio</a>
+        <p id="audio_position"></p>
+		<p>
+			<button onclick="openLink();">Open Link in Browser</button>
+		</p>
+		<p>
+			<button onclick="prevPage();">Home Page</button>
+		</p>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
      </div>
      <div data-role="navbar" align="center">
       <div data-role="controlgroup" data-type="horizontal">
@@ -439,23 +558,32 @@ $(document).ready(function(){
 <a href="#" class="decreaseFont" data-role="button" data-icon="minus" data-iconpos="notext" data-theme="c" data-inline="true">Minus</a>
 <a href="#" class="resetFont" data-role="button" data-icon="refresh" data-iconpos="notext" data-theme="c" data-inline="true">Refresh</a></div>
     <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
-     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+      <h3>குறள்</h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:18px;">கற்றதனால் ஆய பயனென்கொல் வாலறிவன்<br>
+நற்றாள் தொழாஅர் எனின்</p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
       <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
       <div id="imgcontainer">
-       <p style="color:red;font-size:20px;">கற்றுஅதனால் ஆய பயன்என்கொல் வால்அறிவன்
+    <p style="color:blue;font-size:16px;">கற்றுஅதனால் ஆய பயன்என்கொல் வால்அறிவன்
         <br>நற்றாள் தொழாஅர் எனின்</p>
       </div>
      </div>
-     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+     <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
       <h3>முலத் திருக்குறள்</h3>
       <div id="imgcontainer">
        <p style="color:green;font-size:15px;">கற்றதனா லாய பயனென்கொல் வாலறிவ 
         <br>னற்றா டொழாஅ ரெனின் </p>
       </div>
      </div>
-     <div data-role="collapsible" data-collapsed-icon="flat-video" data-expanded-icon="flat-cross">
-      <h3>விரிவுரை</h3>
-விரைவில்
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+      <iframe src="http://www.youtube.com/embed/sDPF0YZtS0A" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
      </div>
      <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
       <h3>பதவுரை</h3>
@@ -482,8 +610,8 @@ $(document).ready(function(){
 
      </div>
 
-     <div data-role="collapsible" data-collapsed-icon="flat-new" data-expanded-icon="flat-cross">
-      <h3>ஆசிரியவுரை</h3>
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
       <div data-role="collapsible-set">
        <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
         <h3>மணக்குடவர்</h3>
@@ -660,7 +788,7 @@ $(document).ready(function(){
      </div>
           <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
       <h3>குறளிசை</h3>
-      <iframe src="http://www.youtube.com/embed/T-_BK_HsKYU" allowfullscreen="" frameborder="0" height="315" width="100%"></iframe>
+      <iframe src="http://www.youtube.com/embed/T-_BK_HsKYU" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
      </div>
      <div data-role="navbar" align="center">
       <div data-role="controlgroup" data-type="horizontal">
