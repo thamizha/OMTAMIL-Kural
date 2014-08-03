@@ -10,6 +10,14 @@ PhoneGap Builds : https://build.phonegap.com/apps/575252/builds
 
 ##### Check Changelog of versions in changelog.txt file
 
+== Beta 0.30 Build 14.07.2014
+New App homepage : OMTAMIL.TV
+New App Logo & Splash Screen
+Added : மொழிபெயர்ப்பு - Translation on multiple languages
+Added : ஒளியுரை - Kural 1-10
+Added : ஆசிரியருரை - புலவர் இரா. இளங்குமரனார்
+Improved : Search and Listview for Kural 1-10
+
 == Version 0.21 Build 12.10.2013
 - Completed : All 133 Chapters
 - Added : 1-40 Kural to the Search
