@@ -9,38 +9,3 @@ PhoneGap Builds : https://build.phonegap.com/apps/575252/builds
 
 
 ##### Check Changelog of versions in changelog.txt file
-
-== Beta 0.30 Build 14.07.2014
-New App homepage : OMTAMIL.TV
-New App Logo & Splash Screen
-Added : மொழிபெயர்ப்பு - Translation on multiple languages
-Added : ஒளியுரை - Kural 1-10
-Added : ஆசிரியருரை - புலவர் இரா. இளங்குமரனார்
-Improved : Search and Listview for Kural 1-10
-
-== Version 0.21 Build 12.10.2013
-- Completed : All 133 Chapters
-- Added : 1-40 Kural to the Search
-- Added : About Us, Contributor & What's New pages
-- Changed : Search Text
-- Changed : Tirukkural OS icon in home page
-- Changed : Language Menu > Tirukkural OS Menu
-- Improved : Rounded collapsible on home page
-
-== Version 0.2 Build 07.10.2013
-- Added : Search box using Autocomplete listview filter feature
-- Added : Language Menu on right panel overlay slider
-- Added : Moola Tirukkural, Virivurai (Video) & Patavurai Tab
-- Added : Splash Screen on startup
-- Added : Footer Image
-- Changed : TSCII > Tamil Unicode
-- Improved : Main page collapsibles
-- Removed : Translations & Transliterations Tab
-- Moved : Open Source Project Info from sidebar to footer - added with version info
-
-== Version 0.11 Build 01.10.2013
-- Added : Translations & Transliterations Tab
-- Added : Illaraviyal Chapters
-
-== Version 0.1.0 Build 30.09.2013
-- Apps Launched on Google Play
