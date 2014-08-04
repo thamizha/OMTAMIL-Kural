@@ -7,7 +7,7 @@ There are many features under continues development. Please send us your feedbac
 Thirukkural OS App is now part of Thamizha Projects.
 
 Project Home : http://omtamil.tv<br>
-Github Project  : https://github.com/omtamil/tirukkural/<br>
+Github Project  : https://github.com/thamizha/thirukkural-os-app/<br>
 PhoneGap Builds : https://build.phonegap.com/apps/575252/builds
 
 திருக்குறள் பயன்
