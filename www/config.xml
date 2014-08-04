@@ -3,16 +3,15 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.omtamil_tirukkural"
-        version   = "0.30">
+        id        = "com.omtamil-thirukkural-os-app"
+        version   = "0.31">
 		
 		<icon src="img/tirukkural-icon.png" />
 
-    <name>Tirukkural OS</name>
+    <name>Thirukkural OS App</name>
 
     <description>
-       Tamil Open Source Apps Project by OMTAMIL
-    </description>
+Thirukkural OS (Open Source) App</description>
 
     <author href="http://omtamil.com" email="info@omtamil.com">
         OMTAMIL
