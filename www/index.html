@@ -5,11 +5,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
-  
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
   <script>
-   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li> <li><a href="#whats-new"><small>அண்மைய மாற்றங்கள்</small></a></li><li><a href="#references"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small>(விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small>(விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித் தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li> <li><a href="#whats-new"><small>அண்மைய மாற்றங்கள்</small></a></li><li><a href="#references"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small>(விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small>(விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
    $(document).on('pagebeforecreate', '[data-role=page]', function() {
     if ($(this).find('[data-role=panel]').length === 0) {
      $('[data-role=header]').before(panel);
@@ -30,68 +29,77 @@
    </div>
    <!-- content -->
    <div data-role="content">
-   
-  
     <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="தேடுக...">
      <li data-filtertext="1">
       <a href="1.html#kural1" rel="external">
-       <small>அகர முதல எழுத்தெல்லாம் ஆதி <br>
-	   பகவன் முதற்றே உலகு</small>
-	    <span class="ui-li-count">1</span></a>
+       <small>அகர முதல எழுத்தெல்லாம் ஆதி
+        <br>பகவன் முதற்றே உலகு</small>
+       <span class="ui-li-count">1</span>
+      </a>
      </li>
      <li data-filtertext="2">
       <a href="1.html#kural2" rel="external">
-       <small>கற்றதனால் ஆய பயனென்கொல் வாலறிவன்<br>
-நற்றாள் தொழாஅர் எனின்</small>
-     <span class="ui-li-count">2</span></a>
+       <small>கற்றதனால் ஆய பயனென்கொல் வாலறிவன்
+        <br>நற்றாள் தொழாஅர் எனின்</small>
+       <span class="ui-li-count">2</span>
+      </a>
      </li>
      <li data-filtertext="3">
       <a href="1.html#kural3" rel="external">
-       <small>மலர்மிசை ஏகினான் மாணடி சேர்ந்தார்<br>
-நிலமிசை நீடுவாழ் வார்</small>
- <span class="ui-li-count">3</span></a>
+       <small>மலர்மிசை ஏகினான் மாணடி சேர்ந்தார்
+        <br>நிலமிசை நீடுவாழ் வார்</small>
+       <span class="ui-li-count">3</span>
+      </a>
      </li>
-    <li data-filtertext="4">
+     <li data-filtertext="4">
       <a href="1.html#kural4" rel="external">
-       <small>வேண்டுதல்வேண் டாமை இலானடி சேர்ந்தார்க்கு<br>
-யாண்டும் இடும்பை இல</small>
- <span class="ui-li-count">4</span></a>
+       <small>வேண்டுதல்வேண் டாமை இலானடி சேர்ந்தார்க்கு
+        <br>யாண்டும் இடும்பை இல</small>
+       <span class="ui-li-count">4</span>
+      </a>
      </li>
      <li data-filtertext="5">
       <a href="1.html#kural5" rel="external">
-       <small>இருள்சேர் இருவினையும் சேரா இறைவன்<br>
-பொருள்சேர் புகழ்புரிந்தார் மாட்டு</small>
-<span class="ui-li-count">5</span></a>
+       <small>இருள்சேர் இருவினையும் சேரா இறைவன்
+        <br>பொருள்சேர் புகழ்புரிந்தார் மாட்டு</small>
+       <span class="ui-li-count">5</span>
+      </a>
      </li>
      <li data-filtertext="6">
       <a href="1.html#kural6" rel="external">
-       <small>பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க<br>
-நெறிநின்றார் நீடுவாழ் வார்</small>
-<span class="ui-li-count">6</span></a>
+       <small>பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க
+        <br>நெறிநின்றார் நீடுவாழ் வார்</small>
+       <span class="ui-li-count">6</span>
+      </a>
      </li>
-   <li data-filtertext="7">
+     <li data-filtertext="7">
       <a href="1.html#kural7" rel="external">
-       <small>தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால்<br>
-மனக்கவலை மாற்றல் அரிது</small>
-<span class="ui-li-count">7</span></a>
+       <small>தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால்
+        <br>மனக்கவலை மாற்றல் அரிது</small>
+       <span class="ui-li-count">7</span>
+      </a>
      </li>
-   <li data-filtertext="8">
+     <li data-filtertext="8">
       <a href="1.html#kural8" rel="external">
-       <small>அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால்<br>
-பிறவாழி நீந்தல் அரிது</small>
-      </a><span class="ui-li-count">8</span></a>
-	  </li>
+       <small>அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால்
+        <br>பிறவாழி நீந்தல் அரிது</small>
+      </a>
+      <span class="ui-li-count">8</span>
+      </a>
+     </li>
      <li data-filtertext="9">
       <a href="1.html#kural9" rel="external">
-       <small>கோளில் பொறியில் குணமிலவே எண்குணத்தான்<br>
-தாளை வணங்காத் தலை</small>
-    <span class="ui-li-count">9</span></a>
+       <small>கோளில் பொறியில் குணமிலவே எண்குணத்தான்
+        <br>தாளை வணங்காத் தலை</small>
+       <span class="ui-li-count">9</span>
+      </a>
      </li>
-    <li data-filtertext="10">
+     <li data-filtertext="10">
       <a href="1.html#kural10" rel="external">
-       <small>பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்<br>
-இறைவன் அடிசேரா தார்</small>
-    <span class="ui-li-count">10</span></a>
+       <small>பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்
+        <br>இறைவன் அடிசேரா தார்</small>
+       <span class="ui-li-count">10</span>
+      </a>
      </li>
      <li>
       <a href="#kural">
@@ -540,32 +548,30 @@
      </li>
      <li data-filtertext="100">
       <a href="#kural">
-       <small>இனிய உளவாக இன்னாத கூறல்<br>
-கனிஇருப்பக் காய்கவர்ந் தற்று</small>
-<span class="ui-li-count">100</span> </a>
+       <small>இனிய உளவாக இன்னாத கூறல்
+        <br>கனிஇருப்பக் காய்கவர்ந் தற்று</small>
+       <span class="ui-li-count">100</span>
+      </a>
      </li>
-	 
-	 <li data-filtertext="1330">
+     <li data-filtertext="1330">
       <a href="#kural">
-       <small>ஊடுதல் காமத்திற் கின்பம் அதற்கின்பம்<br>
-	   கூடி முயங்கப் பெறின்</small>
-<span class="ui-li-count">1330</span> </a>
+       <small>ஊடுதல் காமத்திற் கின்பம் அதற்கின்பம்
+        <br>கூடி முயங்கப் பெறின்</small>
+       <span class="ui-li-count">1330</span>
+      </a>
      </li>
-	 
     </ul>
-
     <div data-role="collapsible-set">
      <div data-role="collapsible" data-theme="d" data-content-theme="c" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
       <h3>அறம்</h3>
       <ul data-role="listview">
        <div data-role="collapsible-set">
         <div data-role="collapsible" data-theme="f" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-         <h3>பாயிரவியல்</h3>       
+         <h3>பாயிரவியல்</h3>
          <div data-role="collapsible-set">
           <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
            <h3>1. இறை வணக்கம்</h3>
            <ul data-role="listview" data-filter="false">
-		   
             <li data-theme="b">
              <a href="1.html#chapter1" rel="external">
               <small>அதிகார விளக்கம்</small>
@@ -573,64 +579,76 @@
             </li>
             <li>
              <a href="1.html#kural1" rel="external">
-               <small>அகர முதல எழுத்தெல்லாம் ஆதி <br>பகவன் முதற்றே உலகு</small>
-              <span class="ui-li-count">1</span></a>
+              <small>அகர முதல எழுத்தெல்லாம் ஆதி
+               <br>பகவன் முதற்றே உலகு</small>
+              <span class="ui-li-count">1</span>
+             </a>
             </li>
-                 <li>
-      <a href="1.html#kural2" rel="external">
-       <small>கற்றதனால் ஆய பயனென்கொல் வாலறிவன்<br>
-நற்றாள் தொழாஅர் எனின்</small>
-     <span class="ui-li-count">2</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural3" rel="external">
-       <small>மலர்மிசை ஏகினான் மாணடி சேர்ந்தார்<br>
-நிலமிசை நீடுவாழ் வார்</small>
- <span class="ui-li-count">3</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural4" rel="external">
-       <small>வேண்டுதல்வேண் டாமை இலானடி சேர்ந்தார்க்கு<br>
-யாண்டும் இடும்பை இல</small>
- <span class="ui-li-count">4</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural5" rel="external">
-       <small>இருள்சேர் இருவினையும் சேரா இறைவன்<br>
-பொருள்சேர் புகழ்புரிந்தார் மாட்டு</small>
-<span class="ui-li-count">5</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural6" rel="external">
-       <small>பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க<br>
-நெறிநின்றார் நீடுவாழ் வார்</small>
-<span class="ui-li-count">6</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural7" rel="external">
-       <small>தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால்<br>
-மனக்கவலை மாற்றல் அரிது</small>
-<span class="ui-li-count">7</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural8" rel="external">
-<small>அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால்<br>
-பிறவாழி நீந்தல் அரிது</small>
-      </a><span class="ui-li-count">8</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural9" rel="external">
-       <small>கோளில் பொறியில் குணமிலவே எண்குணத்தான்<br>
-தாளை வணங்காத் தலை</small>
-    <span class="ui-li-count">9</span></a>
-     </li>
-     <li>
-      <a href="1.html#kural10" rel="external">
-       <small>பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்<br>
-இறைவன் அடிசேரா தார்</small>
-    <span class="ui-li-count">10</span></a>
-     </li>
-     <li>
+            <li>
+             <a href="1.html#kural2" rel="external">
+              <small>கற்றதனால் ஆய பயனென்கொல் வாலறிவன்
+               <br>நற்றாள் தொழாஅர் எனின்</small>
+              <span class="ui-li-count">2</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural3" rel="external">
+              <small>மலர்மிசை ஏகினான் மாணடி சேர்ந்தார்
+               <br>நிலமிசை நீடுவாழ் வார்</small>
+              <span class="ui-li-count">3</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural4" rel="external">
+              <small>வேண்டுதல்வேண் டாமை இலானடி சேர்ந்தார்க்கு
+               <br>யாண்டும் இடும்பை இல</small>
+              <span class="ui-li-count">4</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural5" rel="external">
+              <small>இருள்சேர் இருவினையும் சேரா இறைவன்
+               <br>பொருள்சேர் புகழ்புரிந்தார் மாட்டு</small>
+              <span class="ui-li-count">5</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural6" rel="external">
+              <small>பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க
+               <br>நெறிநின்றார் நீடுவாழ் வார்</small>
+              <span class="ui-li-count">6</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural7" rel="external">
+              <small>தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால்
+               <br>மனக்கவலை மாற்றல் அரிது</small>
+              <span class="ui-li-count">7</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural8" rel="external">
+              <small>அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால்
+               <br>பிறவாழி நீந்தல் அரிது</small>
+             </a>
+             <span class="ui-li-count">8</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural9" rel="external">
+              <small>கோளில் பொறியில் குணமிலவே எண்குணத்தான்
+               <br>தாளை வணங்காத் தலை</small>
+              <span class="ui-li-count">9</span>
+             </a>
+            </li>
+            <li>
+             <a href="1.html#kural10" rel="external">
+              <small>பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்
+               <br>இறைவன் அடிசேரா தார்</small>
+              <span class="ui-li-count">10</span>
+             </a>
+            </li>
+            <li>
            </ul>
           </div>
           <div data-role="collapsible" data-theme="a" data-expanded-icon="flat-cross" data-mini="true">
@@ -5513,11 +5531,11 @@
     <!-- /collapsible -->
     <ul data-role="listview" data-inset="true" data-theme="c">
      <li>
-    <img src="img/tirukkural-icon.png">
-       <small>திருக்குறள் கட்டற்ற செயலி </small>
-      <h4>Tirukkural Open Source App</h4>
+      <img src="img/tirukkural-icon.png">
+      <small>திருக்குறள் கட்டற்ற செயலி</small>
+      <h4>Thirukkural OS (Open Source) App</h4>
       <p>
-       <small>Beta 0.30 Build 14.07.2014</small>
+       <small>Beta 0.31 Build 04.08.2014</small>
       </p>
      </li>
     </ul>
@@ -5531,21 +5549,22 @@
     <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content">
-
-<h3>திருக்குறள் பயன்</h3>
-   
-<p>மாந்தனை மாந்தன் ஆக்குவது திருக்குறள்;<br>
-மாந்தனைச் சான்றோன்  ஆக்குவது திருக்குறள்;<br>
-மாந்தனைத் தெய்வம்  ஆக்குவது திருக்குறள்;<br>
-மாந்தனை இறைவன்  ஆக்குவது திருக்குறள்;<br>
-மாந்தனைப் பெயராக் கடவுட் பெருநிலையில் ஒன்றச் செய்வதும் திருக்குறள்.</p>
-
-<h1>"திருக்குறள் நம்மறை"</h1>
-
-  
-    <p>Tirukkural OS (Open Source) App is initiated by OMTAMIL built around the goal of creating and providing great multi-language Thirukkural experience on mobile devices with clean and simple interface.</p>
+    <h3>திருக்குறள் பயன்</h3>
+    <p>மாந்தனை மாந்தன் ஆக்குவது திருக்குறள்;
+     <br>மாந்தனைச் சான்றோன் ஆக்குவது திருக்குறள்;
+     <br>மாந்தனைத் தெய்வம் ஆக்குவது திருக்குறள்;
+     <br>மாந்தனை இறைவன் ஆக்குவது திருக்குறள்;
+     <br>மாந்தனைப் பெயராக் கடவுட் பெருநிலையில் ஒன்றச் செய்வதும் திருக்குறள்.</p>
+    <h1>"திருக்குறள் நம்மறை"</h1>
+    <p>Thirukkural OS (Open Source) App is initiated by <a href="http://omtamil.tv">OMTAMIL</a> built around the goal of creating and providing great multi-language Thirukkural experience on all mobile devices platform with clean and simple interface.</p>
     <p>There are many features under continues development. Please send us your feedback and feature requests Or give some of your time to contribute to the project.</p>
-    <p>Project Homepage : <a href="http://omtamil.tv">http://omtamil.tv</a></p>
+    <p>Thirukkural OS App is now part of <a href="http://thamizha.com">Thamizha</a> Projects.</p>  
+    
+    <p>Project Home :
+     <a href="http://omtamil.tv">http://omtamil.tv</a>
+    </p>  
+<p>Github Project : <a href="https://github.com/thamizha/thirukkural-os-app">https://github.com/thamizha/thirukkural-os-app</a></p>
+<p>PhoneGap Builds : <a href="https://build.phonegap.com/apps/575252/builds">https://build.phonegap.com/apps/575252/builds</a></p>
    </div>
   </div>
   <!-- end of about -->
@@ -5566,15 +5585,17 @@
      </li>
      <li>
       <img src="img/contributors/ratha.jpg">
-      <h2>முல்லை முகிலன் </h2>
+      <h2>முல்லை முகிலன்</h2>
       <h3>MULLAI MUHELEN</h3>
       <p>ஓம்தமிழ்</p>
       </a>
      </li>
-	      <li>
+     <li>
       <img src="img/contributors/thirumavalavan.png">
-      <h2><small>ஐயா</small> இரா. திருமாவளவனார்</h2>
-      <h3><small>Aiya</small> R.THIRUMAVALAN</h3>
+      <h2>
+       <small>ஐயா</small>இரா. திருமாவளவனார்</h2>
+      <h3>
+       <small>Aiya</small>R.THIRUMAVALAN</h3>
       <p>மலேசியத் தமிழ் நெறிக் கழகம்</p>
       </a>
      </li>
@@ -5586,7 +5607,7 @@
       <small>
        <ol>
         <li>"Fork" our official repository on GitHub -
-         <a href="https://github.com/omtamil/tirukkural">https://github.com/omtamil/tirukkural</a>
+         <a href="https://github.com/thamizha/thirukkural-os-app">https://github.com/thamizha/thirukkural-os-app</a>
         </li>
         <li>Create a topic branch.</li>
         <li>Implement your feature or bug fix.</li>
@@ -5626,95 +5647,113 @@
    </div>
    <div data-role="content">
     <ul data-role="listview" data-inset="true">
-	     <li data-role="list-divider" data-theme="a">Beta 0.30 Build 14.07.2014
-     </li>
+          <li data-role="list-divider" data-theme="a">Beta 0.31 Build 04.08.2014</li>
      <li>
-<strong><small>
-	  <ol data-role="listview">
-      <li>New App homepage : OMTAMIL.TV</li>
-      <li>New App Logo & Splash Screen</li>
-      <li>Added : மொழிபெயர்ப்பு - Translation on multiple languages</li>
-	  <li>Added : ஒளியுரை - Kural 1-10</li>
-      <li>Added : ஆசிரியருரை - புலவர் இரா. இளங்குமரனார்</li>
-	  <li>Improved : Search and Listview for Kural 1-10</li>
-		</ol></small>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Thirukkural OS App is now under Thamizha Projects</li>
+         <li>Moved : Github project to Thamizha repository</li>
+         <li>Added : Thamizha Logo in Splash Screen </li>
+        </ol>
+       </small>
       </strong>
      </li>
-	
-     <li data-role="list-divider" data-theme="a">Beta 0.22 Build 29.10.2013
-     </li>
+     
+     
+     <li data-role="list-divider" data-theme="a">Beta 0.30 Build 14.07.2014</li>
      <li>
-<strong><small>
-	      <ol data-role="listview">
-       <li>Completed : Kural 1-10</li>
-      <li>Added : Kural 41-100 to the Search</li>
-        <li>Added : அதிகார விளக்கம், References page</li>
-        <li>Added : ஆசிரியவுரை, குறளிசை Tab</li>
-        <li>Added : Previous, Next Kural navigation</li>
-		<li>Added : Increase/Decrease text size</li>
-        <li>Changed : Manual slider panel > Dynamic content panel</li>
-        <li>Improved : Collapsible set (accordion) on home page</li>
-		 <li>Moved : Footer Image > Sidebar panel</li>
-		</ol></small>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>New App homepage : OMTAMIL.TV</li>
+         <li>New App Logo & Splash Screen</li>
+         <li>Added : மொழிபெயர்ப்பு - Translation on multiple languages</li>
+         <li>Added : ஒளியுரை - Kural 1-10</li>
+         <li>Added : ஆசிரியருரை - புலவர் இரா. இளங்குமரனார்</li>
+         <li>Improved : Search and Listview for Kural 1-10</li>
+        </ol>
+       </small>
       </strong>
      </li>
-     <li data-role="list-divider" data-theme="a">Beta 0.21 Build 12.10.2013
-     </li>
+     <li data-role="list-divider" data-theme="a">Beta 0.22 Build 29.10.2013</li>
      <li>
-       <strong> 
-	   <small><ol data-role="listview">
-	   <li>Completed : All 133 Chapters list on home page</li>
-        <li>Added : Kural 1-40 to the Search</li>
-        <li>Added : About Us, Contributor & What's New pages</li>
-        <li>Changed : Search Text</li>
-        <li>Changed : Tirukkural OS icon in home page</li>
-        <li>Changed : Language Menu > Tirukkural OS Menu</li>
-        <li>Improved : Rounded collapsible on home page</li>
-        </ol></small>
-       </strong>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Completed : Kural 1-10</li>
+         <li>Added : Kural 41-100 to the Search</li>
+         <li>Added : அதிகார விளக்கம், References page</li>
+         <li>Added : ஆசிரியவுரை, குறளிசை Tab</li>
+         <li>Added : Previous, Next Kural navigation</li>
+         <li>Added : Increase/Decrease text size</li>
+         <li>Changed : Manual slider panel > Dynamic content panel</li>
+         <li>Improved : Collapsible set (accordion) on home page</li>
+         <li>Moved : Footer Image > Sidebar panel</li>
+        </ol>
+       </small>
+      </strong>
      </li>
-     <li data-role="list-divider" data-theme="a">Beta 0.2 Build 07.10.2013
-     </li>
+     <li data-role="list-divider" data-theme="a">Beta 0.21 Build 12.10.2013</li>
      <li>
-        <strong>
-<small>		<ol data-role="listview">
-	   <li>Added : Search box using Autocomplete listview filter feature</li>
-       <li> Added : Language Menu on right panel overlay slider</li>
-        <li>Added : முலத் திருக்குறள், விரிவுரை & பதவுரை Tab</li>
-        <li>Added : Splash Screen on startup</li>
-       <li>Added : Footer Image</li>
-        <li>Changed : TSCII > Tamil Unicode</li>
-        <li>Improved : Main page collapsibles</li>
-        <li>Removed : Translations & Transliterations Tab</li>
-<li>Moved : Open Source Project Info from sidebar to footer - added with version info</li>
-</ol></small>
-       </strong>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Completed : All 133 Chapters list on home page</li>
+         <li>Added : Kural 1-40 to the Search</li>
+         <li>Added : About Us, Contributor & What's New pages</li>
+         <li>Changed : Search Text</li>
+         <li>Changed : Tirukkural OS icon in home page</li>
+         <li>Changed : Language Menu > Tirukkural OS Menu</li>
+         <li>Improved : Rounded collapsible on home page</li>
+        </ol>
+       </small>
+      </strong>
      </li>
-     <li data-role="list-divider" data-theme="a">Beta 0.11 Build 01.10.2013
-     </li>
+     <li data-role="list-divider" data-theme="a">Beta 0.2 Build 07.10.2013</li>
      <li>
-	  <strong>
-<small>      <ol data-role="listview">
-<li>Added : Translations & Transliterations Tab</li>
-<li>Added : இல்லறவியல் Chapters</li>
-</ol></small>
-</strong>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Added : Search box using Autocomplete listview filter feature</li>
+         <li>Added : Language Menu on right panel overlay slider</li>
+         <li>Added : முலத் திருக்குறள், விரிவுரை & பதவுரை Tab</li>
+         <li>Added : Splash Screen on startup</li>
+         <li>Added : Footer Image</li>
+         <li>Changed : TSCII > Tamil Unicode</li>
+         <li>Improved : Main page collapsibles</li>
+         <li>Removed : Translations & Transliterations Tab</li>
+         <li>Moved : Open Source Project Info from sidebar to footer - added with version info</li>
+        </ol>
+       </small>
+      </strong>
      </li>
-	 
-	 <li data-role="list-divider" data-theme="a">Beta 0.1 Build 30.09.2013
-     </li>
+     <li data-role="list-divider" data-theme="a">Beta 0.11 Build 01.10.2013</li>
      <li>
-	  <strong>
-<small>      <ol data-role="listview">
-<li>Tirukkural OS (Open Source) App launched on Google Play store</li>
-</ol></small>
-</strong>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Added : Translations & Transliterations Tab</li>
+         <li>Added : இல்லறவியல் Chapters</li>
+        </ol>
+       </small>
+      </strong>
+     </li>
+     <li data-role="list-divider" data-theme="a">Beta 0.1 Build 30.09.2013</li>
+     <li>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Tirukkural OS (Open Source) App launched on Google Play store</li>
+        </ol>
+       </small>
+      </strong>
      </li>
     </ul>
    </div>
   </div>
   <!-- End of what's new -->
-    <!-- Beginning of References -->
+  <!-- Beginning of References -->
   <div data-role="page" id="references">
    <div data-role="header" data-theme="e">
     <a href="#mainindex" data-role="back" data-icon="back" title="Back">முகப்பு</a>
@@ -5722,25 +5761,23 @@
     <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content" data-theme="h">
-   
-     <ul data-role="listview" data-inset="true">
-   <small>
-    <ol data-role="listview">
-	<li>திருக்குறள்.  வாழ்வியல் உரை - தமிழ்மண் பதிப்பகம்</li>
-    <li>திருக்குறள், அறிவியல் அகலவுரை - தமிழ்க்குரல் பதிப்பகம்</li>
-	<li>திருக்குறள். தெளிவுரை (பதவுரைப் பதிப்பு)  - வானதி பதிப்பகம்</li>
-	<li>திருக்குறள். தமிழ்மரபுரை - நேசமணி பதிப்பகம்</li>
-    <li>திருக்குறள், பொருளுரை  - உமா பதிப்பகம் ISBN 967-434-021-6</li>
-    <li>திருக்குறள், உட்பொருள் விளக்கம்  - வேதாத்திரி பதிப்பகம்</li>
-    <li>கேள்வி பதில் வடிவில் திருக்குறளின் சாரம் - மணிமேகலைப் பிரசுரம்</li>
-	<li>திருக்குறள்  - வனிதா பதிப்பகம் </li>
-	<li>திருக்குறள். தெளிவுரை  - தமிழ் நிலையம்</li>
-	<li>குறள்திறன் - http://kuralthiran.com</li>
-	<li>குறள்அமுதம் - http://kuralamutham.blogspot.com</li>
-	
-</ol></small>
+    <ul data-role="listview" data-inset="true">
+     <small>
+      <ol data-role="listview">
+       <li>திருக்குறள். வாழ்வியல் உரை - தமிழ்மண் பதிப்பகம்</li>
+       <li>திருக்குறள், அறிவியல் அகலவுரை - தமிழ்க்குரல் பதிப்பகம்</li>
+       <li>திருக்குறள். தெளிவுரை (பதவுரைப் பதிப்பு) - வானதி பதிப்பகம்</li>
+       <li>திருக்குறள். தமிழ்மரபுரை - நேசமணி பதிப்பகம்</li>
+       <li>திருக்குறள், பொருளுரை - உமா பதிப்பகம் ISBN 967-434-021-6</li>
+       <li>திருக்குறள், உட்பொருள் விளக்கம் - வேதாத்திரி பதிப்பகம்</li>
+       <li>கேள்வி பதில் வடிவில் திருக்குறளின் சாரம் - மணிமேகலைப் பிரசுரம்</li>
+       <li>திருக்குறள் - வனிதா பதிப்பகம்</li>
+       <li>திருக்குறள். தெளிவுரை - தமிழ் நிலையம்</li>
+       <li>குறள்திறன் - http://kuralthiran.com</li>
+       <li>குறள்அமுதம் - http://kuralamutham.blogspot.com</li>
+      </ol>
+     </small>
     </ul>
-
    </div>
   </div>
   <!-- End of References -->
