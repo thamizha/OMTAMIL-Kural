@@ -8,7 +8,7 @@
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
   <script>
-   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li> <li><a href="#whats-new"><small>அண்மைய மாற்றங்கள்</small></a></li><li><a href="#references"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small>(விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small>(விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li> <li><a href="#whats-new"><small>அண்மைய மாற்றங்கள்</small></a></li><li><a href="#bugs"><small>தெரிந்த சிக்கல்கள்</small></a></li><li><a href="#todo"><small>செய்ய வேண்டியவை</small></a></li><li><a href="#references"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small>(விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small>(விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
    $(document).on('pagebeforecreate', '[data-role=page]', function() {
     if ($(this).find('[data-role=panel]').length === 0) {
      $('[data-role=header]').before(panel);
@@ -29,7 +29,7 @@
    </div>
    <!-- content -->
    <div data-role="content">
-    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="தேடுக...">
+    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="தேடுக - குறள், எண், சொல்">
      <li data-filtertext="1">
       <a href="1.html#kural1" rel="external">
        <small>அகர முதல எழுத்தெல்லாம் ஆதி
@@ -103,52 +103,73 @@
      </li>
      <li>
       <a href="#kural">
-       <small>11 வான்நின்று உலகம் வழங்கி வருதலால் தான்அமிழ்தம் என்றுணரற் பாற்று.</small>
+       <small>வான்நின்று உலகம் வழங்கி வருதலால்
+               <br>தான்அமிழ்தம் என்றுணரற் பாற்று</small>
+              <span class="ui-li-count">11</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>12 துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத் துப்பாய தூஉம் மழை</small>
+      <small>துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத்
+               <br>துப்பாய தூஉம் மழை</small>
+              <span class="ui-li-count">12</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>13 விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து உள்நின்று உடற்றும் பசி</small>
+     <small>விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து
+               <br>உள்நின்று உடற்றும் பசி</small>
+              <span class="ui-li-count">13</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>14 ஏரின் உழாஅர் உழவர் புயல்என்னும் வாரி வளங்குன்றிக் கால்</small>
+      <small>ஏரின் உழாஅர் உழவர் புயல்என்னும்
+               <br>வாரி வளங்குன்றிக் கால்</small>
+              <span class="ui-li-count">14</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>15 கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே எடுப்பதூஉம் எல்லாம் மழை</small>
+      <small>கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே
+               <br>எடுப்பதூஉம் எல்லாம் மழை</small>
+              <span class="ui-li-count">15</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>16 விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே பசும்புல் தலைகாண்பு அரிது</small>
+                  <a href="#kural">
+<small>விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே
+               <br>பசும்புல் தலைகாண்பு அரிது</small>
+              <span class="ui-li-count">16</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>17 நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி தான்நல்கா தாகி விடின்</small>
+     <small>நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி
+               <br>தான்நல்கா தாகி விடின்</small>
+              <span class="ui-li-count">17</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>18 சிறப்பொடு பூசனை செல்லாது வானம் வறக்குமேல் வானோர்க்கும் ஈண்டு</small>
+      <small>சிறப்பொடு பூசனை செல்லாது வானம்
+               <br>வறக்குமேல் வானோர்க்கும் ஈண்டு</small>
+              <span class="ui-li-count">18</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>19 தானம் தவம்இரண்டும் தங்கா வியன்உலகம் வானம் வழங்கா தெனின்</small>
+      <small>தானம் தவம்இரண்டும் தங்கா வியன்உலகம்
+               <br>வானம் வழங்கா தெனின்</small>
+              <span class="ui-li-count">19</span>
       </a>
      </li>
      <li>
       <a href="#kural">
-       <small>20 நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும் வான்இன்று அமையாது ஒழுக்கு</small>
+     <small>நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும்
+               <br>வான்இன்று அமையாது ஒழுக்கு</small>
+              <span class="ui-li-count">20</span>
       </a>
      </li>
      <li>
@@ -553,6 +574,80 @@
        <span class="ui-li-count">100</span>
       </a>
      </li>
+	 
+	 
+	 <li data-filtertext="371">
+ <a href="#kural">
+<small>ஆகூழால் தோன்றும் அசைவின்மை கைப்பொருள்
+<br>போகூழால் தோன்றும் மடி</small>
+<span class="ui-li-count">371</span>
+</a>
+           </li>
+           <li data-filtertext="372">
+            <a href="#kural">
+			<small>பேதைப் படுக்கும் இழவூழ் அறிவகற்றும்
+<br>ஆகலூழ் உற்றக் கடை</small>
+<span class="ui-li-count">372</span>
+</a>
+           </li>
+           <li data-filtertext="373">
+            <a href="#kural">	
+<small>நுண்ணிய நூல்பல கற்பினும் மற்றுந்தன்
+<br>உண்மை யறிவே மிகும்</small>
+<span class="ui-li-count">373</span>
+</a>
+           </li>
+           <li data-filtertext="374">
+            <a href="#kural">
+<small>இருவேறு உலகத்து இயற்கை திருவேறு
+<br>தெள்ளிய ராதலும் வேறு</small>
+<span class="ui-li-count">374</span>
+</a>
+           </li>
+           <li data-filtertext="375">
+            <a href="#kural">
+<small>நல்லவை எல்லாஅந் தீயவாம் தீயவும்
+<br>நல்லவாம் செல்வம் செயற்கு</small>
+<span class="ui-li-count">375</span>
+</a>
+           </li>
+           <li data-filtertext="376">
+            <a href="#kural">		
+<small>பரியினும் ஆகாவாம் பாலல்ல உய்த்துச்
+<br>சொரியினும் போகா தம</small>
+<span class="ui-li-count">376</span>
+</a>
+           </li>
+           <li data-filtertext="377">
+            <a href="#kural">	
+<small>வகுத்தான் வகுத்த வகையல்லால் கோடி
+<br>தொகுத்தார்க்கு துய்த்தல் அரிது</small>
+<span class="ui-li-count">377</span>
+</a>
+           </li>
+           <li data-filtertext="378">
+            <a href="#kural">		
+<small>துறப்பார்மன் துப்புர வில்லார் உறற்பால
+<br>ஊட்டா கழியு மெனின்</small>
+<span class="ui-li-count">378</span>
+</a>
+           </li>
+           <li data-filtertext="379">
+            <a href="#kural">
+<small>நன்றாங்கால் நல்லவாக் காண்பவர் அன்றாங்கால்
+<br>அல்லற் படுவ தெவன்?</small>
+<span class="ui-li-count">379</span>
+			</a>
+           </li>
+           <li data-filtertext="380">
+            <a href="#kural">
+			<small>ஊழிற் பெருவலி யாவுள மற்றொன்று
+<br>சூழினுந் தான்முந் துறும்</small>
+<span class="ui-li-count">380</span>
+			</a>
+</li>
+	 
+	 
      <li data-filtertext="1330">
       <a href="#kural">
        <small>ஊடுதல் காமத்திற் கின்பம் அதற்கின்பம்
@@ -656,52 +751,72 @@
            <ul data-role="listview" data-filter="false">
             <li>
              <a href="#kural">
-              <small>11 வான்நின்று உலகம் வழங்கி வருதலால் தான்அமிழ்தம் என்றுணரற் பாற்று.</small>
+<small>வான்நின்று உலகம் வழங்கி வருதலால்
+               <br>தான்அமிழ்தம் என்றுணரற் பாற்று</small>
+              <span class="ui-li-count">11</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>12 துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத் துப்பாய தூஉம் மழை</small>
+<small>துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத்
+               <br>துப்பாய தூஉம் மழை</small>
+              <span class="ui-li-count">12</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>13 விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து உள்நின்று உடற்றும் பசி</small>
+<small>விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து
+               <br>உள்நின்று உடற்றும் பசி</small>
+              <span class="ui-li-count">13</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>14 ஏரின் உழாஅர் உழவர் புயல்என்னும் வாரி வளங்குன்றிக் கால்</small>
+<small>ஏரின் உழாஅர் உழவர் புயல்என்னும்
+               <br>வாரி வளங்குன்றிக் கால்</small>
+              <span class="ui-li-count">14</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>15 கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே எடுப்பதூஉம் எல்லாம் மழை</small>
+<small>கெடுப்பதூஉம் கெட்டார்க்குச் சார்வாய்மற் றாங்கே
+               <br>எடுப்பதூஉம் எல்லாம் மழை</small>
+              <span class="ui-li-count">15</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>16 விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே பசும்புல் தலைகாண்பு அரிது</small>
+<small>விசும்பின் துளிவீழின் அல்லால்மற் றாங்கே
+               <br>பசும்புல் தலைகாண்பு அரிது</small>
+              <span class="ui-li-count">16</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>17 நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி தான்நல்கா தாகி விடின்</small>
+<small>நெடுங்கடலும் தன்நீர்மை குன்றும் தடிந்தெழிலி
+               <br>தான்நல்கா தாகி விடின்</small>
+              <span class="ui-li-count">17</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>18 சிறப்பொடு பூசனை செல்லாது வானம் வறக்குமேல் வானோர்க்கும் ஈண்டு</small>
+<small>சிறப்பொடு பூசனை செல்லாது வானம்
+               <br>வறக்குமேல் வானோர்க்கும் ஈண்டு</small>
+              <span class="ui-li-count">18</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>19 தானம் தவம்இரண்டும் தங்கா வியன்உலகம் வானம் வழங்கா தெனின்</small>
+<small>தானம் தவம்இரண்டும் தங்கா வியன்உலகம்
+               <br>வானம் வழங்கா தெனின்</small>
+              <span class="ui-li-count">19</span>
              </a>
             </li>
             <li>
              <a href="#kural">
-              <small>20 நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும் வான்இன்று அமையாது ஒழுக்கு</small>
+<small>நீர்இன்று அமையாது உலகெனின் யார்யார்க்கும்
+               <br>வான்இன்று அமையாது ஒழுக்கு</small>
+              <span class="ui-li-count">20</span>
              </a>
             </li>
            </ul>
@@ -2109,34 +2224,74 @@
           <h3>38. ஊழ்</h3>
           <ul data-role="listview" data-filter="false">
            <li>
-            <a href="#kural">குறள் 371</a>
+		    <a href="#kural">
+<small>ஆகூழால் தோன்றும் அசைவின்மை கைப்பொருள்
+<br>போகூழால் தோன்றும் மடி</small>
+<span class="ui-li-count">371</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 372</a>
+            <a href="#kural">
+			<small>பேதைப் படுக்கும் இழவூழ் அறிவகற்றும்
+<br>ஆகலூழ் உற்றக் கடை</small>
+<span class="ui-li-count">372</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 373</a>
+            <a href="#kural">	
+<small>நுண்ணிய நூல்பல கற்பினும் மற்றுந்தன்
+<br>உண்மை யறிவே மிகும்</small>
+<span class="ui-li-count">373</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 374</a>
+            <a href="#kural">
+<small>இருவேறு உலகத்து இயற்கை திருவேறு
+<br>தெள்ளிய ராதலும் வேறு</small>
+<span class="ui-li-count">374</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 375</a>
+            <a href="#kural">
+<small>நல்லவை எல்லாஅந் தீயவாம் தீயவும்
+<br>நல்லவாம் செல்வம் செயற்கு</small>
+<span class="ui-li-count">375</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 376</a>
+            <a href="#kural">		
+<small>பரியினும் ஆகாவாம் பாலல்ல உய்த்துச்
+<br>சொரியினும் போகா தம</small>
+<span class="ui-li-count">376</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 377</a>
+            <a href="#kural">	
+<small>வகுத்தான் வகுத்த வகையல்லால் கோடி
+<br>தொகுத்தார்க்கு துய்த்தல் அரிது</small>
+<span class="ui-li-count">377</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 378</a>
+            <a href="#kural">		
+<small>துறப்பார்மன் துப்புர வில்லார் உறற்பால
+<br>ஊட்டா கழியு மெனின்</small>
+<span class="ui-li-count">378</span>
+</a>
            </li>
            <li>
-            <a href="#kural">குறள் 379</a>
+            <a href="#kural">
+<small>நன்றாங்கால் நல்லவாக் காண்பவர் அன்றாங்கால்
+<br>அல்லற் படுவ தெவன்?</small>
+<span class="ui-li-count">379</span>
+			</a>
            </li>
            <li>
-            <a href="#kural">குறள் 380</a>
+            <a href="#kural">
+			<small>ஊழிற் பெருவலி யாவுள மற்றொன்று
+<br>சூழினுந் தான்முந் துறும்</small>
+<span class="ui-li-count">380</span>
+			</a>
            </li>
           </ul>
          </div>
@@ -5535,7 +5690,7 @@
       <small>திருக்குறள் கட்டற்ற செயலி</small>
       <h4>Thirukkural Open Source App</h4>
       <p>
-       <small>Beta 0.31 Build 04.08.2014</small>
+       <small>Beta 0.32 Build 06.08.2014</small>
       </p>
      </li>
     </ul>
@@ -5550,21 +5705,28 @@
    </div>
    <div data-role="content">
     <h3>திருக்குறள் பயன்</h3>
-    <p>மாந்தனை மாந்தன் ஆக்குவது திருக்குறள்;
-     <br>மாந்தனைச் சான்றோன் ஆக்குவது திருக்குறள்;
-     <br>மாந்தனைத் தெய்வம் ஆக்குவது திருக்குறள்;
-     <br>மாந்தனை இறைவன் ஆக்குவது திருக்குறள்;
-     <br>மாந்தனைப் பெயராக் கடவுட் பெருநிலையில் ஒன்றச் செய்வதும் திருக்குறள்.</p>
+    <small>
+     <p>மாந்தனை மாந்தன் ஆக்குவது திருக்குறள்;
+      <br>மாந்தனைச் சான்றோன் ஆக்குவது திருக்குறள்;
+      <br>மாந்தனைத் தெய்வம் ஆக்குவது திருக்குறள்;
+      <br>மாந்தனை இறைவன் ஆக்குவது திருக்குறள்;
+      <br>மாந்தனைப் பெயராக் கடவுட் பெருநிலையில் ஒன்றச் செய்வதும் திருக்குறள்.</p>
+    </small>
     <h1>"திருக்குறள் நம்மறை"</h1>
-    <p>Thirukkural OS (Open Source) App is initiated by <a href="http://omtamil.tv">OMTAMIL</a> built around the goal of creating and providing great multi-language Thirukkural experience on all mobile devices platform with clean and simple interface.</p>
+    <p>Thirukkural OS (Open Source) App is initiated by
+     <a href="http://omtamil.tv">OMTAMIL</a>built around the goal of creating and providing great multi-language Thirukkural experience on all mobile devices platform with clean and simple interface.</p>
     <p>There are many features under continues development. Please send us your feedback and feature requests Or give some of your time to contribute to the project.</p>
-    <p>Thirukkural OS App is now part of <a href="http://thamizha.com">Thamizha</a> Projects.</p>  
-    
+    <p>Thirukkural OS App is now part of
+     <a href="http://thamizha.com">Thamizha</a>Projects.</p>
     <p>Project Home :
      <a href="http://omtamil.tv">http://omtamil.tv</a>
-    </p>  
-<p>Github Project : <a href="https://github.com/thamizha/thirukkural-os-app">https://github.com/thamizha/thirukkural-os-app</a></p>
-<p>PhoneGap Builds : <a href="https://build.phonegap.com/apps/575252/builds">https://build.phonegap.com/apps/575252/builds</a></p>
+    </p>
+    <p>Github Project :
+     <a href="https://github.com/thamizha/thirukkural-os-app">https://github.com/thamizha/thirukkural-os-app</a>
+    </p>
+    <p>PhoneGap Builds :
+     <a href="https://build.phonegap.com/apps/575252/builds">https://build.phonegap.com/apps/575252/builds</a>
+    </p>
    </div>
   </div>
   <!-- end of about -->
@@ -5647,20 +5809,34 @@
    </div>
    <div data-role="content">
     <ul data-role="listview" data-inset="true">
-          <li data-role="list-divider" data-theme="a">Beta 0.31 Build 04.08.2014</li>
+	    <li data-role="list-divider" data-theme="a">Beta 0.32 Build 06.08.2014</li>
+     <li>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Fixed : Blank screen after Splash Screen</li>
+		 <li>Fixed : Typo error - முலத் திருக்குறள் > மூலத் திருக்குறள்</li>
+		 <li>Modified : Search text change</li>
+         <li>Added : தெரிந்த சிக்கல்கள் (Known Issues) Menu</li>
+		 <li>Added : செய்ய வேண்டியவை (To Do) Menu</li>
+         <li>Added : Loading icon Splash Screen</li>
+		 <li>Added : Kural 371-380 to Search</li>
+        </ol>
+       </small>
+      </strong>
+     </li>
+     <li data-role="list-divider" data-theme="a">Beta 0.31 Build 04.08.2014</li>
      <li>
       <strong>
        <small>
         <ol data-role="listview">
          <li>Thirukkural OS App is now under Thamizha Projects</li>
          <li>Moved : Github project to Thamizha repository</li>
-         <li>Added : Thamizha Logo in Splash Screen </li>
+         <li>Added : Thamizha Logo in Splash Screen</li>
         </ol>
        </small>
       </strong>
      </li>
-     
-     
      <li data-role="list-divider" data-theme="a">Beta 0.30 Build 14.07.2014</li>
      <li>
       <strong>
@@ -5753,6 +5929,42 @@
    </div>
   </div>
   <!-- End of what's new -->
+  <!-- Beginning of Bugs -->
+  <div data-role="page" id="bugs">
+   <div data-role="header" data-theme="e">
+    <a href="#mainindex" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h3>தெரிந்த சிக்கல்கள்</h3>
+    <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content" data-theme="h">
+    <ul data-role="listview" data-inset="true">
+     <small>
+      <ol data-role="listview">
+       <li>Search fields text not formatted</li>
+      </ol>
+     </small>
+    </ul>
+   </div>
+  </div>
+  <!-- End of Bugs -->
+  <!-- Beginning of To Do List -->
+  <div data-role="page" id="todo">
+   <div data-role="header" data-theme="e">
+    <a href="#mainindex" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>செய்ய வேண்டியவை</h1>
+    <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content" data-theme="h">
+    <ul data-role="listview" data-inset="true">
+     <small>
+      <ol data-role="listview">
+       <li>குறள் உள்ளீடு >  101-1332</li>
+      </ol>
+     </small>
+    </ul>
+   </div>
+  </div>
+  <!-- End of To Do List -->
   <!-- Beginning of References -->
   <div data-role="page" id="references">
    <div data-role="header" data-theme="e">
