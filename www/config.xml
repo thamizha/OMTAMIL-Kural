@@ -6,7 +6,7 @@
         id        = "com.omtamil-thirukkural-oss-app"
         version   = "0.32">
 		
-<icon src="logo.png" gap:role="default" />
+<icon src="icon.png" gap:role="default" />
 		
     <name>Thirukkural OSS App</name>
 
@@ -23,12 +23,6 @@ Thirukkural Open Source Software App</description>
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 	
-	
-<gap:platform name="ios" />
-<gap:platform name="android" />
-<gap:platform name="winphone" />
-<gap:platform name="blackberry" />
-
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -74,7 +68,12 @@ Thirukkural Open Source Software App</description>
     <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-
+	
+	
+	<icon gap:platform="blackberry" src="res/icon/blackberry/icon-80.png" />
+    <icon gap:platform="blackberry" gap:state="hover" src="res/icon/blackberry/icon-80.png" />
+<gap:splash gap:platform="blackberry" src="res/screen/blackberry/screen-225.png" />
+	
     <!-- Define app splash screen for each platform. -->
 
 	<gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
