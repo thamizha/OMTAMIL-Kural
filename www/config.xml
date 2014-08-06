@@ -6,7 +6,7 @@
         id        = "com.omtamil-thirukkural-oss-app"
         version   = "0.32">
 		
-<icon src="icon.png">
+<icon src="icon.png" />
 		
     <name>Thirukkural OSS App</name>
 
