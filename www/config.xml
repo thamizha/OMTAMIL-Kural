@@ -3,15 +3,15 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.omtamil-thirukkural-os-app"
+        id        = "com.omtamil-thirukkural-oss-app"
         version   = "0.32">
 		
 		<icon src="img/logo2.png" />
 		
-    <name>Thirukkural OS App</name>
+    <name>Thirukkural OSS App</name>
 
     <description>
-Thirukkural OS (Open Source) App</description>
+Thirukkural OSS (Open Source) App</description>
 
     <author href="http://omtamil.com" email="info@omtamil.com">
         OMTAMIL
