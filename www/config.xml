@@ -6,12 +6,12 @@
         id        = "com.omtamil-thirukkural-oss-app"
         version   = "0.32">
 		
-<icon src="img/icon.png" gap:role="default" />
+<icon src="logo.png" gap:role="default" />
 		
     <name>Thirukkural OSS App</name>
 
     <description>
-Thirukkural OSS (Open Source) App</description>
+Thirukkural Open Source Software App</description>
 
     <author href="http://omtamil.com" email="info@omtamil.com">
         OMTAMIL
@@ -28,7 +28,7 @@ Thirukkural OSS (Open Source) App</description>
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
-    <preference name="permissions"                value="none"/>
+    <preference name="permissions"  value="none"/>
 
       <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.5.0" />          <!-- all: current version of PhoneGap -->
@@ -43,7 +43,7 @@ Thirukkural OSS (Open Source) App</description>
     <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
     <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
 	<preference name="SplashScreen" value="screen" />
-<preference name="SplashScreenDelay" value="10000" />
+	<preference name="SplashScreenDelay" value="10000" />
 
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
