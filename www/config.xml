@@ -22,6 +22,12 @@ Thirukkural Open Source Software App</description>
         The "device" permission is required for the 'deviceready' event.
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
+	
+	
+<gap:platform name="ios" />
+<gap:platform name="android" />
+<gap:platform name="winphone" />
+<gap:platform name="blackberry" />
 
     <!--
         If you do not want any permissions to be added to your app, add the
