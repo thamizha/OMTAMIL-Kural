@@ -6,8 +6,6 @@
         id        = "com.omtamil-thirukkural-oss-app"
         version   = "0.32">
 		
-<icon src="icon.png" />
-		
     <name>Thirukkural OSS App</name>
 
     <description>
@@ -16,6 +14,10 @@ Thirukkural Open Source Software App</description>
     <author href="http://omtamil.com" email="info@omtamil.com">
         OMTAMIL
     </author>
+	
+	<!-- Define app icon MAIN ROOT Platform. -->
+
+<icon src="icon.png" />		
 
     <!--
         Enable individual API permissions here.
