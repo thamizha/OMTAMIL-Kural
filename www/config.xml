@@ -6,7 +6,7 @@
         id        = "com.omtamil-thirukkural-oss-app"
         version   = "0.32">
 		
-<icon src="icon.png" gap:role="default" />
+<icon src="icon.png">
 		
     <name>Thirukkural OSS App</name>
 
@@ -68,11 +68,6 @@ Thirukkural Open Source Software App</description>
     <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-	
-	
-	<icon gap:platform="blackberry" src="res/icon/blackberry/icon-80.png" />
-    <icon gap:platform="blackberry" gap:state="hover" src="res/icon/blackberry/icon-80.png" />
-<gap:splash gap:platform="blackberry" src="res/screen/blackberry/screen-225.png" />
 	
     <!-- Define app splash screen for each platform. -->
 
