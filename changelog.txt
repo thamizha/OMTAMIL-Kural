@@ -1,4 +1,9 @@
-﻿== Beta 0.32 Build 06.08.2014
+﻿== Beta 0.33 Build 09.08.2014 
+Changed : Project Name - Thirukkural OS App > Thirukkural OSS App 
+Added : Kural 101-370 to Main List and Search 
+Completed : அறத்துப்பால் (Kural 1-380) on Main List and Search
+
+== Beta 0.32 Build 06.08.2014
 Fixed : Blank screen after Splash Screen
 Fixed : Typo error - முலத் திருக்குறள் > மூலத் திருக்குறள்
 Modified : Search text change
