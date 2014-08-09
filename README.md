@@ -20,13 +20,9 @@ PhoneGap Builds : https://build.phonegap.com/apps/575252/builds
 
 "திருக்குறள் நம்மறை"
 
-== Beta 0.32 Build 06.08.2014
-Fixed : Blank screen after Splash Screen
-Fixed : Typo error - முலத் திருக்குறள் > மூலத் திருக்குறள்
-Modified : Search text change
-Added : தெரிந்த சிக்கல்கள் (Known Issues) Menu
-Added : செய்ய வேண்டியவை (To Do) Menu
-Added : Loading icon Splash Screen
-Added : Kural 371-380 to Search
+== Beta 0.33 Build 09.08.2014
+Changed : Project Name - Thirukkural OS App > Thirukkural OSS App
+Added : Kural 101-370 to Main List and Search
+Completed : அறத்துப்பால் (Kural 1-380) on Main List and Search
 
 ##### Check Changelog full versions in changelog.txt file
