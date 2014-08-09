@@ -8,7 +8,7 @@
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
   <script>
-   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li><li><a href="#whats-new"><small>மாற்றங்கள்</small></a></li><li><a href="#todo"><small>திட்ட நிலவரம்</small></a></li><li><a href="#bugs"><small>வழுக்கள்</small></a></li><li><a href="#references"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small>(விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small>(விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li><li><a href="#whats-new"><small>மாற்றங்கள்</small></a></li><li><a href="#todo"><small>செயற்திட்டங்கள்</small></a></li><li><a href="#bugs"><small>வழுக்கள்</small></a></li><li><a href="#references"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small>(விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small>(விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
    $(document).on('pagebeforecreate', '[data-role=page]', function() {
     if ($(this).find('[data-role=panel]').length === 0) {
      $('[data-role=header]').before(panel);
@@ -6443,7 +6443,7 @@
       <small>திருக்குறள் கட்டற்ற செயலி</small>
       <h4>Thirukkural Open Source App</h4>
       <p>
-       <small>Beta 0.33 Build 09.08.2014</small>
+       <small>Beta 0.40 Build 09.08.2014</small>
       </p>
      </li>
     </ul>
@@ -6562,6 +6562,20 @@
    </div>
    <div data-role="content">
     <ul data-role="listview" data-inset="true">
+	<li data-role="list-divider" data-theme="a">Beta 0.40 Build 09.08.2014</li>
+     <li>
+      <strong>
+       <small>
+        <ol data-role="listview">
+         <li>Completed : 1330 Kurals on Main List</li>
+		 <li>Completed : 1330 Kurals on Search List</li>
+		 <li>Changed : Menu name தெரிந்த சிக்கல்கள் > வழுக்கள்</li>
+		 <li>Changed : Menu name செய்ய வேண்டியவை > செயற்திட்டங்கள்</li>
+        </ol>
+       </small>
+      </strong>
+     </li>
+	
 		    <li data-role="list-divider" data-theme="a">Beta 0.33 Build 09.08.2014</li>
      <li>
       <strong>
@@ -6726,18 +6740,24 @@
   <div data-role="page" id="todo">
    <div data-role="header" data-theme="e">
     <a href="#mainindex" data-role="back" data-icon="back" title="Back">முகப்பு</a>
-    <h1>திட்ட நிலவரம்</h1>
+    <h1>செயற்திட்டங்கள்</h1>
     <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content" data-theme="h">
 
      <small>
-<h3> நடப்பு திட்ட பட்டியல் </h3>
+<h3> நடப்பு திட்டங்கள் </h3>
 <ol data-role="listview">
-       <li>To create Main List > Kural 631-1330</li>
-	   <li>To include Search List > Kural 631-1330</li> 
 	   <li>To create each Chapter (அதிகாரம்)   > Athikaram 2-133</li> 
 	   </ol>
+	   <p><br>
+	  <h3> முடிக்கப்பட்ட திட்டங்கள் </h3>
+<ol data-role="listview">
+       <li><s>To create Main List > Kural 1-1330</s></li>
+	   <li><s>To include Search List > Kural 1-1330</s></li> 
+	   </ol> 
+	   
+	   
      </small>
 
    </div>
