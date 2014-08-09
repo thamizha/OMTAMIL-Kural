@@ -1,4 +1,4 @@
-# Thirukkural OSS App
+﻿# Thirukkural OSS App
 
 Thirukkural OSS (Open-Source Software) App is initiated by OMTAMIL built around the goal of creating and providing great multi-language Thirukkural experience on all mobile devices platform with clean and simple interface.
 
@@ -20,9 +20,10 @@ PhoneGap Builds : https://build.phonegap.com/apps/575252/builds
 
 "திருக்குறள் நம்மறை"
 
-== Beta 0.33 Build 09.08.2014
-Changed : Project Name - Thirukkural OS App > Thirukkural OSS App
-Added : Kural 101-370 to Main List and Search
-Completed : அறத்துப்பால் (Kural 1-380) on Main List and Search
+== Beta 0.40 Build 09.08.2014<br>
+Completed : 1330 Kurals on Main List<br>
+Completed : 1330 Kurals on Search List<br>
+Changed : Menu name தெரிந்த சிக்கல்கள் > வழுக்கள்<br>
+Changed : Menu name செய்ய வேண்டியவை > செயற்திட்டங்கள்
 
 ##### Check Changelog full versions in changelog.txt file

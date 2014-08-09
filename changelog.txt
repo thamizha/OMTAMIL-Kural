@@ -1,4 +1,10 @@
-﻿== Beta 0.33 Build 09.08.2014 
+﻿== Beta 0.40 Build 09.08.2014
+Completed : 1330 Kurals on Main List
+Completed : 1330 Kurals on Search List
+Changed : Menu name தெரிந்த சிக்கல்கள் > வழுக்கள்
+Changed : Menu name செய்ய வேண்டியவை > செயற்திட்டங்கள்
+
+== Beta 0.33 Build 09.08.2014 
 Changed : Project Name - Thirukkural OS App > Thirukkural OSS App 
 Added : Kural 101-370 to Main List and Search 
 Completed : அறத்துப்பால் (Kural 1-380) on Main List and Search
