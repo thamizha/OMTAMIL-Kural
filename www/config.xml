@@ -56,9 +56,6 @@ Thirukkural Open Source App by OMTAMIL and project under THAMIZHA
 <!-- Plugins -->
 
 
-    <!-- X-Services PhoneGap Build plugins -->
-    <gap:plugin name="nl.x-services.plugins.socialsharing" />
-
 
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.splashscreen" />
