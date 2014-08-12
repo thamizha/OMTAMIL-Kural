@@ -6,10 +6,12 @@
         id        = "com.omtamil-thirukkural-oss-app"
         version   = "0.41">
 		
-    <name>Thirukkural OSS App</name>
+    <name>Thirukkural Open Source App</name>
 
     <description>
-திருக்குறள் Thirukkural Open Source App by OMTAMIL and project under THAMIZHA</description>
+Thirukkural Open Source App by OMTAMIL and project under THAMIZHA
+திருக்குறள் கட்டற்ற செயலி
+</description>
 
     <author href="http://omtamil.com" email="info@omtamil.com">
         OMTAMIL
@@ -52,6 +54,11 @@
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
 <!-- Plugins -->
+
+
+    <!-- X-Services PhoneGap Build plugins -->
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+
 
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.splashscreen" />

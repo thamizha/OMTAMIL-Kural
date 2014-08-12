@@ -1,4 +1,10 @@
-﻿== Beta 0.40 Build 09.08.2014
+﻿== Beta 0.41 Build 12.08.2014
+Fixed : Main List responsive view
+Fixed : Search List responsive view
+Changed : Project Name Thirukkural OSS App > Thirukkural Open Source App
+
+
+== Beta 0.40 Build 09.08.2014
 Completed : 1330 Kurals on Main List
 Completed : 1330 Kurals on Search List
 Changed : Menu name தெரிந்த சிக்கல்கள் > வழுக்கள்
