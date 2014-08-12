@@ -4,12 +4,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.omtamil-thirukkural-oss-app"
-        version   = "0.40">
+        version   = "0.41">
 		
     <name>Thirukkural OSS App</name>
 
     <description>
-Thirukkural Open Source Software App</description>
+திருக்குறள் Thirukkural Open Source App by OMTAMIL and project under THAMIZHA</description>
 
     <author href="http://omtamil.com" email="info@omtamil.com">
         OMTAMIL

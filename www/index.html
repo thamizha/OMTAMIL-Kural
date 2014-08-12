@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Tirukkural OSS</title>
+  <title>Tirukkural Open Source App</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  
+  
+
+  
   <script>
    var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="#about"><small>செயலிப் பற்றி</small></a><li><a href="#contributors"><small>பங்களிப்பாளர்கள்</small></a></li><li><a href="#whats-new"><small>மாற்றங்கள்</small></a></li><li><a href="#todo"><small>செயற்திட்டங்கள்</small></a></li><li><a href="#bugs"><small>வழுக்கள்</small></a></li><li><a href="#references"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="OMTAMIL.TV" class="ui-li-icon ui-corner-none">OMTAMIL.TV <small>(விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small>(விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
    $(document).on('pagebeforecreate', '[data-role=page]', function() {
@@ -18,6 +22,18 @@
     });
    });
   </script>
+  
+  
+    <style>
+           .myParagraph {
+		overflow:show;
+		text-overflow:clip;
+		white-space:normal;
+		margin-bottom:0px;
+           }
+        </style>
+  
+  
  </head>
  <body>
   <div data-role="page" id="mainindex">
@@ -28,9 +44,14 @@
     <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <!-- content -->
+   
+ 
+   
+   
    <div data-role="content">
-    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="தேடுக - குறள், எண், சொல்">
-     <li data-filtertext="1">
+
+    <ul data-role="listview" class='moreText' data-inset="true" data-filter="true" data-filter-reveal="true" data-filter-placeholder="தேடுக - குறள், எண், சொல்">
+     <li>
       <a href="1.html#kural1" rel="external">
        <small>அகர முதல எழுத்தெல்லாம் ஆதி
         <br>பகவன் முதற்றே உலகு</small>
@@ -39,8 +60,8 @@
      </li>
      <li data-filtertext="2">
       <a href="1.html#kural2" rel="external">
-       <small>கற்றதனால் ஆய பயனென்கொல் வாலறிவன்
-        <br>நற்றாள் தொழாஅர் எனின்</small>
+      <p class="myParagraph">கற்றதனால் ஆய பயனென்கொல் வாலறிவன்
+        <br>நற்றாள் தொழாஅர் எனின்</p>
        <span class="ui-li-count">2</span>
       </a>
      </li>
@@ -19416,7 +19437,7 @@
       <small>திருக்குறள் கட்டற்ற செயலி</small>
       <h4>Thirukkural Open Source App</h4>
       <p>
-       <small>Beta 0.40 Build 09.08.2014</small>
+       <small>Beta 0.41 Build 12.08.2014</small>
       </p>
      </li>
     </ul>
@@ -19430,7 +19451,7 @@
     <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
    </div>
    <div data-role="content">
-    <h3>திருக்குறள் நம்மறை</h3>
+    <h3>தமிழ்மறை திருக்குறள்</h3>
     <small>
      <p>"மாந்தனை மாந்தன் ஆக்குவது திருக்குறள்;
       <br>மாந்தனைச் சான்றோன் ஆக்குவது திருக்குறள்;
@@ -19438,16 +19459,16 @@
       <br>மாந்தனை இறைவன் ஆக்குவது திருக்குறள்;
       <br>மாந்தனைப் பெயராக் கடவுட் பெருநிலையில் ஒன்றச் செய்வதும் திருக்குறள்."</p>
     </small>
-    <p>Thirukkural OSS (Open-Source Software) App is initiated by
+    <p>Thirukkural Open Source App is initiated by
      <a href="http://omtamil.tv">OMTAMIL</a> built around the goal of creating and providing great multi-language Thirukkural experience on all mobile devices platform with clean and simple interface.</p>
     <p>There are many features under continues development. Please send us your feedback and feature requests Or give some of your time to contribute to the project.</p>
-    <p>Thirukkural OSS App is now part of
+    <p>Thirukkural Open Source App is now part of
      <a href="http://thamizha.com">Thamizha</a> Projects.</p>
     <p>Project Home :
      <a href="http://omtamil.tv">http://omtamil.tv</a>
     </p>
     <p>Github Project :
-     <a href="https://github.com/thamizha/thirukkural-oss-app">https://github.com/thamizha/thirukkural-oss-app</a>
+     <a href="https://github.com/thamizha/thirukkural-open-source-app">https://github.com/thamizha/thirukkural-open-source-app</a>
     </p>
     <p>Google Play Store :
      <a href="https://play.google.com/store/apps/details?id=com.omtamil_thirukkural_oss_app">https://play.google.com/store/apps/details?id=com.omtamil_thirukkural_oss_app</a>
@@ -19522,7 +19543,7 @@
     <div data-role="collapsible" data-mini="true" data-theme="a" data-content-theme="c">
      <h4>B. Promotion</h4>
      <ul data-role="listview">
-      <small>You can help us by spread this app usage to others by share about Thirukkural OSS App in your Facebook, Twitter or blogs.</small>
+      <small>You can help us by spread this app usage to others by share about Thirukkural Open Source App in your Facebook, Twitter or blogs.</small>
      </ul>
     </div>
    </div>
