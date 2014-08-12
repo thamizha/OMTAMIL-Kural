@@ -136,12 +136,15 @@
 
 
 
+
 .ui-collapsible-set .ui-collapsible .ui-listview .ui-li-count {
     left  : 3px;
     right : auto;
 }
 .ui-collapsible-set .ui-collapsible .ui-listview .ui-li-has-count .ui-btn-text a {
     padding-left : 30px;
+right : auto;
+text-decoration:none;
 }
 
 
@@ -152,6 +155,8 @@
 }
 .ui-page .ui-content .ui-listview .ui-li-has-count .ui-btn-text a {
     padding-left : 40px;
+right : auto;
+text-decoration:none;
 }
 
 
