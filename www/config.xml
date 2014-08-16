@@ -55,7 +55,10 @@ Thirukkural Open Source App by OMTAMIL and project under THAMIZHA
 
 <!-- Plugins -->
 
-
+<gap:platform name="ios" />
+<gap:platform name="android" />
+<gap:platform name="blackberry" />
+<gap:platform name="winphone" />
 
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.splashscreen" />
