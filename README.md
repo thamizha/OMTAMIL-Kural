@@ -19,8 +19,8 @@ PhoneGap Builds : https://build.phonegap.com/apps/575252/builds
 மாந்தனை இறைவன் ஆக்குவது திருக்குறள்;
 மாந்தனைப் பெயராக் கடவுட் பெருநிலையில் ஒன்றச் செய்வதும் திருக்குறள்.
 
-== Beta 0.42 Build 14.08.2014<br>
-Improved : Main List & Search List text decoration:none<br>
-Improved : Main List & Search List font weight:bold removed
+== Beta 0.43 Build 02.10.2014<br>
+New : iOS Build for iPhone and iPad<br>
+Added : அதிகாரம்  2 -  வான் சிறப்பு - அதிகார விளக்கம்
 
 ##### Check Changelog full versions in changelog.txt file

@@ -1,4 +1,8 @@
-﻿== Beta 0.42 Build 14.08.2014
+﻿== Beta 0.43 Build 02.10.2014
+New : iOS Build for iPhone and iPad
+Added : அதிகாரம்  2 -  வான் சிறப்பு - அதிகார விளக்கம்
+
+== Beta 0.42 Build 14.08.2014
 Improved : Main List & Search List text decoration:none
 Improved : Main List & Search List font weight:bold removed
 

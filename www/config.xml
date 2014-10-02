@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.omtamil-thirukkural-oss-app"
-        version   = "0.42">
+        version   = "0.43">
 		
     <name>Thirukkural Open Source App</name>
 
@@ -54,11 +54,6 @@ Thirukkural Open Source App by OMTAMIL and project under THAMIZHA
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
 <!-- Plugins -->
-
-<gap:platform name="ios" />
-<gap:platform name="android" />
-<gap:platform name="blackberry" />
-<gap:platform name="winphone" />
 
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.splashscreen" />
