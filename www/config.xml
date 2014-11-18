@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.omtamil-thirukkural-oss-app"
-        version   = "0.43">
+        version   = "0.44">
 		
     <name>Thirukkural Open Source App</name>
 
@@ -47,7 +47,7 @@ Thirukkural Open Source App by OMTAMIL and project under THAMIZHA
     <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
     <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
 	<preference name="SplashScreen" value="screen" />
-	<preference name="SplashScreenDelay" value="15000" />
+	<preference name="SplashScreenDelay" value="10000" />
 
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-minSdkVersion"      value="16" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
