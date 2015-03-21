@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Thirukkural Chapter 6</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script>
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="index.html#about" rel="external"><small>செயலிப் பற்றி</small></a><li><a href="index.html#contributors" rel="external"><small>பங்களிப்பாளர்கள்</small></a></li><li><a href="index.html#whats-new" rel="external"><small>மாற்றங்கள்</small></a></li> <li><a href="index.html#todo" rel="external"><small>செயற்திட்டங்கள்</small></a></li> <li><a href="index.html#bugs" rel="external"><small>வழுக்கள்</small></a></li><li><a href="index.html#references" rel="external"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="English" class="ui-li-icon ui-corner-none">OMTAMIL.TV  <small>விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small> (விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
+
+   $(document).on('pagebeforecreate', '[data-role=page]', function() {
+    if ($(this).find('[data-role=panel]').length === 0) {
+     $('[data-role=header]').before(panel);
+    }
+
+
+    $(document).on('pagebeforeshow', '[data-role=page]', function() {
+     $(this).trigger('pagecreate');
+    });
+   });
+  </script> 
+  <script>
+$(document).ready(function(){
+  // Reset Font Size
+  var originalFontSize = $('html').css('font-size');
+  $(".resetFont").click(function(){
+  $('html').css('font-size', originalFontSize);
+  });
+  // Increase Font Size
+  $(".increaseFont").click(function(){
+  	var currentFontSize = $('html').css('font-size');
+ 	var currentFontSizeNum = parseFloat(currentFontSize, 10);
+    var newFontSize = currentFontSizeNum*1.2;
+	$('html').css('font-size', newFontSize);
+	return false;
+  });
+  // Decrease Font Size
+  $(".decreaseFont").click(function(){
+  	var currentFontSize = $('html').css('font-size');
+ 	var currentFontSizeNum = parseFloat(currentFontSize, 10);
+    var newFontSize = currentFontSizeNum*0.8;
+	$('html').css('font-size', newFontSize);
+	return false;
+  });
+});
+</script>
+
+
+
+  
+ </head>
+ <body>
+ 
+ 
+  <!-- Beginning of chapter6 -->
+  <div data-role="page" id="chapter6">
+   <div data-role="header" data-theme="e"> 
+   
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>அதிகார விளக்கம்</h1>
+    <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+  
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross" data-collapsed="false">
+      <h3>6.வாழ்க்கைத் துணை நலம்</h3>  
+      <div id="imgcontainer">
+       <p style="color:red;">துணைவன் துணைவியர் ஒருவர்க்கு ஒருவர் வாழ்வுத் துணையாகும் நல்ல தன்மை </p>
+      </div>
+     </div>
+	  <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+       <a href="#kural51" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 51</a>
+       <a href="#kural52" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 52</a>
+       <a href="#kural53" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 53</a>
+       <a href="#kural54" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 54</a>
+       <a href="#kural55" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 55</a>
+       <a href="#kural56" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 56</a>
+       <a href="#kural57" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 57</a>
+       <a href="#kural58" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 58</a>
+       <a href="#kural59" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 59</a>
+       <a href="#kural60" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள் 60</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of chapter6-->
+  
+  
+   <!-- Beginning of kural51 -->
+  <div data-role="page" id="kural51">
+   <div data-role="header" data-theme="e">
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள்51</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	     <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+      <h3>குறள் ௪௧</h3>
+      <div id="imgcontainer">
+		       <p style="color:red;font-size:12px;">மனைத்தக்க மாண்புடைய ளாகித்தற் கொண்டான் 
+  <br>வளத்தக்காள் வாழ்க்கைத் துணை </p>
+      </div>
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">மனைத்தக்க மாண்புடைய ளாகித்தற் கொண்டான்  
+  <br>வளத்தக்காள் வாழ்க்கைத் துணை</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+	  </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+	  <div class="ui-grid-d ui-responsive"><small>
+	  
+	  
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில் மேற்கொண்டு வாழ்வான் </div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன் </div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்  சார்ந்திருக்கும் </div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி மக்கள் ஆகிய மூன்று வகையினர்க்கும்</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க வழிகளில்</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக இருக்கும் துணையாவான்</div></small>
+</div><!-- /grid-b -->
+	  
+	  
+
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+ 
+<div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+              <small>குடும்பத்திற்குத் தக்க நற்குண நற்செயல்கள் உடைவளாயத் தன் கணவன் நிலைக்குத் தக்க அளவில் குடும்பம் நடத்துபவளே சிறந்த மனைவி ஆவாள்</small>
+       </div>
+       
+      </div>
+     </div>
+	 
+
+    <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     
+	 </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+       <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம்</a>
+       <a href="#kural52" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 52</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural51 -->
+  
+    
+  
+   <!-- Beginning of kural52 -->
+  <div data-role="page" id="kural52">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 52</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௨ </h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">மனைமாட்சி இல்லாள்கண் இல்லாயின் வாழ்க்கை  
+  <br>எனைமாட்சித் தாயினும் இல்.</p> 
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">மனைமாட்சி இல்லாள்கண் இல்லாயின் வாழ்க்கை
+        <br>எனைமாட்சித் தாயினும் இல். </p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">துறந்தார்க்கும்</span>-துறவரத்தினை மேற்கொண்ட முனிவர்களுக்கும்</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">துவ்வாதவர்க்கும்</span>-வறியவர்களுக்கும்</div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">இறந்தார்க்கும்</span>-யாருமின்றித் தம்மிடம் வந்து இறந்தவர்களுக்கும் </div>
+
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில் வாழ்பவன் </div>
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்பவன்</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">துணை</span>-துணையாகும்</div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>மனைவியிடத்து மனைக்குரிய நற்குணம் நற்செய்கை இல்லை என்றால், அவ்வழக்கை பொருள் கல்வி பதவி முதலிய எவ்வகையில் சிறப்புடையதாய் இருப்பினும் பயனில்லை</small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/28JUEo2wj8A" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural51" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 51</a>
+        <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம்</a>
+       <a href="#kural53" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 53</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural52 -->
+  
+  
+    <!-- Beginning of kural53 -->
+  <div data-role="page" id="kural53">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 53</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௩   </h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">இல்லதென் இல்லவள் மாண்பானால்? உள்ளதென்
+  <br>இல்லவள் மாணாக் கடை</p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">இல்லதென் இல்லவள் மாண்பானால்? உள்ளதென் 
+        <br>இல்லவள் மாணாக் கடை</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">தென்புலத்தார்</span>-முன்னோர்கள்</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">தெய்வம்  </span>-தெய்வம்</div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">விருந்து</span>-விருந்தினர்</div>
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஒக்கல்</span>-சுற்றத்தார்</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">தான்</span>-தான்</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">என்று</span>-என்பதாகும்</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஐம்புலத்து</span>-ஐந்து இடத்திலும் செய்ய வேண்டிய</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆறு</span>-வழியினை</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஓம்பல் தலை</span>-போற்றிக் காத்துச் செய்தல் தலையாய அறமாகும்</div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>மனைவி,குடும்பத்திற்கு ஏற்ற குணம் உடையவளாக இருந்தால் அவ் வாழ்வில் இல்லாத நலம் என்ன? (எல்லா நலன்களும் உண்டு) அவள் சிறுமைக் குணம் உடையவளாக இருந்தால் அவ்வாழ்வில் இருப்பது என்ன?(எதுவும் இல்லை)  </small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/PaPPoXLUdRk" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural52" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 52</a>
+       <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம்</a>
+       <a href="#kural54" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 54</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural53 -->
+  
+    <!-- Beginning of kural54 -->
+  <div data-role="page" id="kural54">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 54</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௪    </h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">பெண்ணிற் பெருந்தக்க யாவுள,கற்பென்னும் 
+  <br>திண்மையுண் டாகப் பெறின்</p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">பெண்ணிற் பெருந்தக்க யாவுள,கற்பென்னும் 
+        <br>திண்மையுண் டாகப் பெறின்.</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">பழிஅஞ்சிப்</span>-பலிக்கு அச்சப்பட்டு</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">பாத்து</span>-பலருக்கும் பகுத்துக் கொடுத்து </div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">உண்</span>-உண்ணும் முறையினை</div>
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">வாழ்க்கை</span>-இல்வாழ்க்கையானது</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">உடைத்தாயின்</span>-பெற்றிருக்குமானால்</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">வழிஎஞ்சல்</span>-அவனுடைய பரம்பரை மறைதல்</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">எஞ்ஞான்றும் இல்</span>-எக்காலத்திலும் இல்லையாகும்</div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>கற்பு என்று சொல்லுப்படும் உறுதித் தன்மை ஒரு பெண்ணுக்கு உண்டாகப் பெற்றிருந்தால், அப்பெண்ணினும்பெருமைப்படத் தக்கனவாக வேறு எவையும் இல்லை</small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/Ia-rqo4yNQw" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural53" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 53</a>
+        <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம்</a>
+       <a href="#kural55" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 55</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural54 -->
+  
+    <!-- Beginning of kural55 -->
+  <div data-role="page" id="kural55">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 55</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௫  </h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">தெய்வம் தொழாஅள்  கொழுநற் றொழுதெழுவாள்
+  <br>பெய்யெனப் பெய்யும் மழை </p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">அன்பும் அறனும் உடைத்தாயின் இல்வாழ்க்கை    
+        <br>பண்பும் பயனும் அது .</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்க்கை</span>-இல்லற வாழ்க்கையானது</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">அன்பும் அறனும்</span>-அன்புடைமையினையும்</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">உடைத்தாயின் </span>-பெற்றிருக்குமானால்</div>
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">அது</span>-அதுவே </div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">பண்பும் பயனும்</span>-சிறந்த குணமும் பயனும் ஆகும்</div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>(திருமணத்தின் முன்புதான் தொழுத ) தெய்வத்தைத் தொழாதவளாய்த் தன் கணவனையே  தெய்வமாக  நினைத்து துயிலெழும் பெண்மகள் பெய் என்ற அளவில்  </small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/J2EGzjInkHU" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural54" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 54</a>
+        <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம்</a>
+       <a href="#kural56" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 56</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural55 -->
+  
+  <!-- Beginning of kural56 -->
+  <div data-role="page" id="kural56">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 56</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௬ </h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">தற்காத்துத்  தற்கொண்டான்  பேணித் தகைசான்ற
+  <br>சொற்காத்துச்  சோர்விலாள் பெண் </p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">தற்காத்துத்  தற்கொண்டான்  பேணித் தகைசான்ற  
+        <br>சொற்காத்துச்  சோர்விலாள் பெண்</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்க்கை</span>-இல்லற வாழ்க்கையினை</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">அறத்தாற்றின்</span>-அறமான வழியில்</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின்</span>-நடத்துவானே</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">புறத்தாற்றின் </span>-புறமான வேறு வழியில்</div>
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">போஒய்ப்பெறுவது</span>-போய் அடைகின்ற பயன்</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);"> எவன்</span>-யாது இருக்கின்றது </div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>தன் உடலையும் உள்ளத்தையும் தக்கவாறு காத்து,தன் கணவன் விரும்புமாறு பேணி,தகுதி மிக்க மூத்தோர் மொழிகளைப் போற்றி, சோர்வில்லாமல் கடமை புரிபவளே சிதைந்த பெண் </small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/udB5-r6xz64" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural55" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 55</a>
+       <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம்</a>
+       <a href="#kural57" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 57</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural56 -->
+  
+  
+  
+   <!-- Beginning of kural57 -->
+  <div data-role="page" id="kural57">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 57</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௭ </h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">சிறைகாக்கும் காப்பெவன்  செய்யும் ? மகளிர் 
+  <br>நிறைகாக்கும் காப்பே  தலை</p>
+  </p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">சிறைகாக்கும் காப்பெவன்  செய்யும் ? மகளிர்  
+        <br>நிறைகாக்கும் காப்பே  தலை</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்க்கை</span>-இல்லற வாழ்க்கையில் இருந்து கொண்டு</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">இயல்பினான்</span>-இயல்பாகவே பொருத்தமான தன்மைகளுடன் </div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">வாழ்பவன்</span>-இதுதான்</div>
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);"> என்பான்</span>-என்று</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">முயல்வாருள்   </span>-எடுத்துக் கூறல் வேண்டுவதில்லையாகும்</div>
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">எல்லாம் </span>-சுமந்து துக்கிச் செல்பனோடு</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">தலை</span>-அமர்திருப்பவன்</div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>பெண்டிரைப் பிறர் அடக்கிக் காக்கும் காவல் என்ன பயன் செய்யும்?அவர் தம்மைத் தாமே அடக்கிக் காக்கும் மனக்காவலே </small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/Jsep5yjSqMw" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural56" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 56</a>
+       <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம் </a>
+       <a href="#kural58" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 58</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural57 -->
+  
+  <!-- Beginning of kural58 -->
+  <div data-role="page" id="kural58">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 58</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௮</h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">பெற்றான் பெறின்பெறுவர் பெண்டிர் பெருஞ்சிறப்புப் 
+  <br>நோற்பாரின் நோன்மை உடைத்து</p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">ஆற்றின் ஒழுக்கி அறன்இழுக்கா இல்வாழ்க்கை  
+        <br>நோற்பாரின் நோன்மை உடைத்து.</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின்</span>-துறவறத்தில் நின்றவர்களையும் நல்வழியில் </div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஒழுக்கி</span>-ஒழுகச் செய்து </div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">அறன்இழுக்கா</span>-தானும் அறத்தினை விட்டு நீக்காமல் நடத்தும்</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்க்கை </span>-இல்லற வாழ்க்கையானது</div>
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நோற்பாரின்</span>-நோன்பு நோற்றுத் தவம் செய்பவர்களைவிட </div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">நோன்மை உடைத்து</span>-பொறுமையுடையதாகும் </div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>பிறரை நல்வழியில் நடக்கச் செய்து தானும் நல்வழியில் தவறாமல் நடப்பவன் இல்வாழ்க்கை கடுந்தவன் செய்பவர் தவத்தினும் வலிமையுடையதாகும்</small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/nroTQqnz8oM" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural57" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 57</a>
+       <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம் </a>
+       <a href="#kural59" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 59</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural58 -->
+  
+  <!-- Beginning of kural59 -->
+  <div data-role="page" id="kural59">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 59</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௯  </h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">அறனெனப்  பட்டதே இல்வாழ்க்கை அஃதும் 
+  <br>பிறன்பழிப்பது இல்லாயின் நன்று  </p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">அறன்எனப்  பட்டதே இல்வாழ்க்கை அஃதும் 
+        <br>பிறன்பழிப்பது இல்லாயின் நன்று .</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">அறன்</span>-அறம்</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">எனப்பட்டதே</span>-என்று சொல்லப்படுவது</div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்க்கை </span>-இல்லறமேயாகும்</div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">அஃதும் </span>-ஏனைய துறவறமும்</div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">பிறன் </span>-பிறரால்</div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">பழிப்பது </span>-பழிக்கப் படுவது என்பது</div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">இல்லாயின் </span>-இல்லையானால் </div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">நன்று</span>-</div>நல்லதாகும்</small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>அறம் என்று நூல்வல்லோரால் சொல்லப்பட்டது இல்வழ்வே.அவ்வாழ்வு புகழுக்குரியதே எனினும் பிறர் பழித்தற்கும் இடமில்லாது அமைந்தால் மேலும் நல்ல புகழுக்குரியதாம் </small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/jLXbovTCLu0" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural58" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 58</a>
+       <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம் </a>
+       <a href="#kural60" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள் 60</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural59 -->
+  
+   <!-- Beginning of kural60 -->
+  <div data-role="page" id="kural60">
+   <div data-role="header" data-theme="e">
+
+    <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+    <h1>குறள் 60</h1>
+    <div class="new-sidebar"></div>
+    <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button" data-icon="flat-menu"></a>
+   </div>
+   <div data-role="content">
+    <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+	
+	    <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross" data-collapsed="false">
+       <h3>குறள் ௩௦</h3>
+      <div id="imgcontainer">
+       <p style="color:red;font-size:12px;">வையத்துள் வாழ்வாங்கு வாழ்பவன் வான்உறையும்
+  <br>தெய்வத்துள் வைக்கப் படும்.</p>
+      </div>
+     </div>
+	
+      <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+      <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+      <div id="imgcontainer">
+    <p style="color:blue;font-size:10px;">வையத்துள் வாழ்வாங்கு வாழ்பவன் வானுறையும்
+        <br>தெய்வத்துள் வைக்கப் படும்.</p>
+      </div>
+     </div>
+
+     <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+      <h3>ஒளியுரை</h3>
+விரைவில்
+     </div>
+     <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+      <h3>பதவுரை</h3>
+      
+<div class="ui-grid-d ui-responsive"><small>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">வாழ்வாங்கு </span>-வாழ வேண்டிய முறையில்</div>
+<div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">வையத்துள் </span>-இவ்வுலகில் </div>
+<div class="ui-block-d"><span style="font-weight: bold; color: rgb(153, 51, 153);">வாழ்பவன்</span>-வாழ்கின்ற இல்லறத் தான்</div>
+<div class="ui-block-e"><span style="font-weight: bold; color: rgb(153, 51, 153);">வான்</span>-வானுகில் </div>
+</div><!-- /grid-b -->
+<div class="ui-grid-d ui-responsive">
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);"> உறையும் </span>-வசிக்கின்ற </div>
+<div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);"> தெய்வத்துள் </span>-தெய்வங்களுடனே</div>
+<div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">வைக்கப்படும்  </span>-வைக்கப்படுவான்</div></small>
+</div><!-- /grid-b -->
+
+     </div>
+
+   <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+      <h3>ஆசிரியருரை</h3>
+      <div data-role="collapsible-set">
+       
+	   <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+        <h3>புலவர் இரா. இளங்குமரனார்</h3>
+        <small>உலகில் வாழவேண்டிய முறைப்படி வாழ்பவன் மேம்பட்ட புகழுகில் நிலைபெறும் தெய்வங்களுள் ஒரு தெய்வமாக மதிக்கப்படுவான்</small>
+       </div>
+	      
+
+       </div>
+      </div>
+     
+     <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+      <h3>குறளிசை</h3>
+      <iframe src="http://www.youtube.com/embed/UjNHDTEAaSo" allowfullscreen="" frameborder="0" height="auto" width="100%"></iframe>
+	  
+     </div>
+     <div data-role="navbar" align="center">
+      <div data-role="controlgroup" data-type="horizontal">
+	    <a href="#kural59" data-icon="arrow-l" data-iconpos="right" data-theme="f" data-role="button">குறள் 59</a>
+       <a href="#chapter6" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">6.வாழ்க்கைத் துணை நலம் </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end of kural60-->
+  
+  
+ </body>
+
+</html>
