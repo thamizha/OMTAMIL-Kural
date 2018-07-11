@@ -1,6 +1,6 @@
-﻿# ஓம்தமிழ் குறள் செயலி OMTAMIL Kural App 
+﻿# ஓம்தமிழ் குறள் OMTAMIL Kural 
 
-OMTAMIL Kural is initiated by OMTAMIL DOTCOM built around the goal of creating and providing great multi-language Thirukkural experience on all mobile devices platform with clean and simple interface.
+OMTAMIL Kural is initiated by OMTAMIL DOTCOM built around the goal of creating and providing great multi-language Thirukkural experience on all devices and platforms with clean and simple interface.
 
 There are many features under continues development. Please send us your feedback and feature requests Or give some of your time to contribute to the project.
 
